@@ -1,58 +1,50 @@
 # Project Luther Proposal
 
-### How many strikeouts will a MLB pitcher record?
+### What is the value of your MLB rookie?
 
 Jason Salazer-Adams  
 
-### New Idea
-Every MLB rookie can be a free agent in 7 years (need to confirm). What are the influencers for the eventual player contract value once in the free agent range? The goal is to have a model which accurately predicts the value of a contract 7 years in the future and then allow for negotiation the current year.
-
-### Things to consider
-
-- Adjust for inflation
-- Impact of contracts provided prior to free agency term (Assume 7-year value)
-
-
 ### Scope
 
-Consider an MLB pitcher. The pitcher has control of the ball and then releases the ball to the batter. The batter then has a chance to hit the ball. If the ball is hit in play then the rest of the team has a chance to make an out. If the pitcher strikes out the batter, then the pitcher is responsible for the out. The only out a MLB pitcher has complete control over in a game is a strikeout. If an opposing team can predict the number of strikeouts based on their lineup, then it can estimate how many outs they have to generate runs. I am going to attempt to predict the strikeouts given pitcher characteristics and team batting characteristics. My goal is to use the analysis to influence how a pitching coach or hitting coach can work with the pitcher or batter to either increas or reduce strikeouts, respectively.
+Every MLB rookie can be a free agent in 6 years of service time. Each owner would much rather pay their young players long term who will also provide value long-term, rather than waiting until free agency. The inherit risk of waiting until free agency is the rookie underperforms their peers, and thus is over-paid for their value. Ideally, the player over-performs for the contract signed prior to free agency epoch. Can you predict the free-agency value of a rookie batter? The value would be an upper bound salary to then use in negotiations with current rookies.  
 
-A MVP would be to calculate an average number of strikeouts using historical boxscore data for 2018. The MVP could be improved by incoroporating StatCast data or weather data.  
+### Methodology
+
+1. Get all rookies starting in 1985 to present. Salary information on baseballrefernce.com could be incomplete prior to 1985.  
+2. Get all statistics for the rookie players.
+3. Build a linear regression model relating batting statistics to salary at year 6.  
 
 ### Data
 
-I am planning to scrape box score data for the 2018 season. Utilize the first half of the season (or some subset) as training data, and the second half as testing data.
+- Salary data by player by year (service term > 5 is free agent contract)
+- List of rookies by MLB season
+- fangraphs.com / baseballreference.com / http://legacy.baseballprospectus.com/compensation/cots/ (detailed salary data)
 
-#### Pitching Data
+### Prediction
 
-|STAT| Description|
+Salary of a player after 6 calendar years from MLB debut.
+
+### Features
+
+Features of the rookie player to be predicted.
+
+|Feature|Description
 |---|---|
-|Throws| Left (L) or Right (R)|
-|BF| Batters Faced YTD (total or avg)|
-|H| Hits allowed YTD (total or avg)|
-|R| Runs allowed YTD (total or avg)|
-|ER| Earned runs allowed YTD (total or avg)|
-|HR| Home runs allowed YTD (total or avg)|
+|AVG |Batting average|
+|HR |Home runs|
+|H |Hits|
+|R |Runs|
+|SB |Stolen Bases|
+|TB |Total Bases|
+|2B |Doubles|
+|3B |Triples|
+|RBI |Runs batted in|
+|BB |Walks|
+|SO |Strike outs|
+|Postion | Main position played (categorical)|
 
-#### Batting Data
+### Things to consider
 
-|STAT| Description|
-|---|---|
-|Bats| Left (L) or Right (R)|
-|AB| At bats YTD (total or avg)|
-|H| Hits YTD (total or avg)|
-|R| Runs YTD (total or avg)|
-|RBI| Runs batted in YTD (total or avg)|
-|HR| Home runs YTD (total or avg)|
-|BB| Walks YTD (total or avg)|
-|PA| Plate appearences (total or avg)|
-|SO| Strikeouts (total or avg)|
-|Starting Pitcher Throws| L or R of Starting pitcher*|
-|Pit| Pitches seen YTD (total or avg)|
-
-### Known Unknowns
-
-- Is 2018 enough data?
-- Impact of weather or time-off between appearences.
-- Impact of injuries and variance of starting lineups.
-- "Starting Pitcher Throws" is more categorical than numerical.
+- Need to adjust for inflation and use a logarithimic scale for salaries.
+- Impact of contracts provided prior to the free agency year.
+- Adding sabermetric type measurements as features.
