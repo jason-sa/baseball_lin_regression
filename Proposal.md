@@ -4,6 +4,15 @@
 
 Jason Salazer-Adams  
 
+### New Idea
+Every MLB rookie can be a free agent in 7 years (need to confirm). What are the influencers for the eventual player contract value once in the free agent range? The goal is to have a model which accurately predicts the value of a contract 7 years in the future and then allow for negotiation the current year.
+
+### Things to consider
+
+- Adjust for inflation
+- Impact of contracts provided prior to free agency term (Assume 7-year value)
+
+
 ### Scope
 
 Consider an MLB pitcher. The pitcher has control of the ball and then releases the ball to the batter. The batter then has a chance to hit the ball. If the ball is hit in play then the rest of the team has a chance to make an out. If the pitcher strikes out the batter, then the pitcher is responsible for the out. The only out a MLB pitcher has complete control over in a game is a strikeout. If an opposing team can predict the number of strikeouts based on their lineup, then it can estimate how many outs they have to generate runs. I am going to attempt to predict the strikeouts given pitcher characteristics and team batting characteristics. My goal is to use the analysis to influence how a pitching coach or hitting coach can work with the pitcher or batter to either increas or reduce strikeouts, respectively.
