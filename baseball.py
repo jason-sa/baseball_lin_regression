@@ -4,3 +4,4 @@ def get_boxscore_urls(driver):
     for l in links:
         urls.append(l.get_attribute('href'))
     return urls
+
