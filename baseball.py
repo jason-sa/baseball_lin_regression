@@ -37,3 +37,7 @@ def get_player_data(soup_players, year, name):
     rookie_stats.Year = rookie_stats.Year.astype(int)
 
     return rookie_stats
+
+def get_player_soup(ind, df):
+    url = df.html[ind]
+    return BeautifulSoup(url, 'lxml')
