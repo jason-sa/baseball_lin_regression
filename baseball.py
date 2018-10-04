@@ -56,7 +56,7 @@ def build_rookie_year_df(pages):
     
     return df
 
-def build_rookie_table(rookie_pages, rookie_player_pages):
+def build_rookie_table(rookie_pages):
     rookie_df = pd.DataFrame(columns=['Name','Debut','Age','Tm','rookie_year'])
 
     for i in rookie_pages.year.values:
@@ -77,3 +77,41 @@ def build_rookie_table(rookie_pages, rookie_player_pages):
         rookie_df.Name = rookie_df.Name.str.strip()
        
     return rookie_df
+
+def get_player_salary(ind, df, name):
+    salary_soup = get_player_soup(ind, df)
+
+    salary_html = salary_soup.find('table',{'id':'br-salaries'})
+    if salary_html is None:
+        return None    
+    
+    salary_tables_lst = pd.read_html(str(salary_html))
+    salary_df = salary_tables_lst[0]
+    
+    salary_df = salary_df[~salary_df.Year.isnull()]
+    salary_df = salary_df[salary_df.Year.str.contains(r'[1-2]\d{3}$')]
+    salary_df.Salary = (salary_df.Salary
+                       .str.replace('$','')
+                       .str.replace(',','')
+                       .str.replace('*','')
+                       )
+    salary_df.loc[salary_df.Salary == '', 'Salary'] = np.nan
+    salary_df.Salary = salary_df.Salary.astype(float)
+
+    salary_df.Age = salary_df.Age.astype(float)
+
+    salary_df.loc[salary_df.SrvTm == '?','SrvTm'] = np.nan
+    salary_df.SrvTm = salary_df.SrvTm.astype(float)
+    salary_df['name'] = [name] * salary_df.shape[0]
+    
+    return salary_df
+
+def load_salary_data(players):
+    df = pd.DataFrame()
+    
+    for ind in players.index:
+        name = players.name[ind]
+        print(name, ind, players.link[ind])
+        df = df.append(get_player_salary(ind, players, name))
+        
+    return df
