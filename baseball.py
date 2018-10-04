@@ -41,3 +41,17 @@ def get_player_data(soup_players, year, name):
 def get_player_soup(ind, df):
     url = df.html[ind]
     return BeautifulSoup(url, 'lxml')
+
+def build_rookie_year_df(pages):
+    df = pd.DataFrame()
+    for ind in pages.index:
+        soup_players = get_player_soup(ind, pages)
+        year = str(pages.year[ind])
+        name = str(pages.name[ind])
+    #     print(name, year, scrapped_rookie_players.link[ind])
+
+        new_player = bb.get_player_data(soup_players, year, name)
+        if new_player is not None:
+            df = df.append(new_player)
+    
+    return df
