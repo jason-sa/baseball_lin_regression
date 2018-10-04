@@ -8,6 +8,7 @@ import time
 import os
 from selenium.webdriver.common.by import By
 import pickle
+import re
 
 def get_boxscore_urls(driver):
     urls = []
@@ -45,12 +46,12 @@ def build_rookie_pages(start, end, driver):
     
     #attempt to load from csv
     try:
-        rookie_pages = pd.read_csv('data/rookie_pages.csv')
+        rookie_pages = pd.read_csv('data/rookie_pages.csv', index_col=0)
     except FileNotFoundError:
         pass
     print(rookie_pages.shape)
     try:
-        rookie_player_pages = pd.read_csv('data/rookie_player_pages.csv')
+        rookie_player_pages = pd.read_csv('data/rookie_player_pages.csv', index_col=0)
     except FileNotFoundError:
         pass
     print(rookie_player_pages.shape)
@@ -75,21 +76,25 @@ def build_rookie_pages(start, end, driver):
             links_list = [a.get_attribute('href') for a in links if re.search(r'players/.', a.get_attribute('href'))]
             names_list = [a.text for a in links if re.search(r'players/.', a.get_attribute('href'))]
 
-            rookie_pages.to_csv('data/rookie_pages.csv')
+
         
         if len(links_list) != 0: # add new data
             index = rookie_player_pages.index.max()+1
-            index_l = list(range(index, index+len(links_list)+1))
+            index_l = list(range(index, index+len(links_list)))
             year_l = [i] * len(links_list)
-            rookie_player_pages.loc[index_l] = [year_l, names_list, links_list, np.nan()]
-
+            new_df = pd.DataFrame({'year': year_l, 'name': names_list, 'link': links_list}, index=index_l)
+            rookie_player_pages = rookie_player_pages.append(new_df, sort=True)
+        
+        rookie_pages.to_csv('data/rookie_pages.csv')
         # loop only over incomplete data
 #         index = rookier_player_pages.index.max() + 1
         
-        for l in rookie_player_pages.loc[(rookie_player_pages.html == np.nan), 'link'].values;
+        index = 0
+        for l in rookie_player_pages.loc[rookie_player_pages.html.isnull(), 'link'].values:
+            print(l)
             driver.get(l)
 #             print(names_list[k])
-            rookie_player_pages.loc[index, 'html'] = driver.page_source
+            rookie_player_pages.loc[rookie_player_pages.link == l, 'html'] = driver.page_source
             if index != 0 and index % 10 == 0:
                 rookie_player_pages.to_csv('data/rookie_player_pages.csv')
             index += 1
@@ -97,3 +102,16 @@ def build_rookie_pages(start, end, driver):
         rookie_player_pages.to_csv('data/rookie_player_pages.csv')
 
     return rookie_pages, rookie_player_pages
+
+chromedriver = "chromedriver" # path to the chromedriver executable
+os.environ["webdriver.chrome.driver"] = chromedriver
+driver = webdriver.Chrome(chromedriver)
+
+while True:
+    try:
+        rookie_pages, rookie_player_pages = build_rookie_pages(1998, 2010, driver)
+    except:
+        pass
+    else:
+        break
+    time.sleep(10)
