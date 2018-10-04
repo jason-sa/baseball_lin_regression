@@ -50,8 +50,30 @@ def build_rookie_year_df(pages):
         name = str(pages.name[ind])
     #     print(name, year, scrapped_rookie_players.link[ind])
 
-        new_player = bb.get_player_data(soup_players, year, name)
+        new_player = get_player_data(soup_players, year, name)
         if new_player is not None:
             df = df.append(new_player)
     
     return df
+
+def build_rookie_table(rookie_pages, rookie_player_pages):
+    rookie_df = pd.DataFrame(columns=['Name','Debut','Age','Tm','rookie_year'])
+
+    for i in rookie_pages.year.values:
+        # scrape the rookie batters (includes pitchers if PA)
+        soup_pages = BeautifulSoup(rookie_pages.html[i], 'lxml')
+        batting = soup_pages.find('table',{'id':'misc_batting'})
+        batting_df = pd.read_html(str(batting))
+        
+        # add Name, Debut, Age, Tm, and rookie_year
+        year_df = batting_df[0].loc[:,['Name','Debut','Age','Tm']]
+        year_df['rookie_year'] = [i] * batting_df[0].shape[0]
+        year_df.rookie_year = year_df.rookie_year.astype(int)
+        rookie_df = rookie_df.append(year_df)
+        
+        # Strip HOF indicator from name
+        rookie_df.Name = rookie_df.Name.str.replace('HOF','')
+        rookie_df[rookie_df.Name.str.contains('HOF')]
+        rookie_df.Name = rookie_df.Name.str.strip()
+       
+    return rookie_df
