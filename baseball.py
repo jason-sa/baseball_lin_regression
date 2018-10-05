@@ -90,28 +90,28 @@ def get_player_salary(ind, df, name):
     
     salary_df = salary_df[~salary_df.Year.isnull()]
     salary_df = salary_df[salary_df.Year.str.contains(r'[1-2]\d{3}$')]
-    salary_df.Salary = (salary_df.Salary
-                       .str.replace('$','')
-                       .str.replace(',','')
-                       .str.replace('*','')
-                       )
-    salary_df.loc[salary_df.Salary == '', 'Salary'] = np.nan
-    salary_df.Salary = salary_df.Salary.astype(float)
 
-    salary_df.Age = salary_df.Age.astype(float)
-
-    salary_df.loc[salary_df.SrvTm == '?','SrvTm'] = np.nan
-    salary_df.SrvTm = salary_df.SrvTm.astype(float)
     salary_df['name'] = [name] * salary_df.shape[0]
+    salary_df['UID'] = [ind] * salary_df.shape[0]
     
     return salary_df
 
 def load_salary_data(players):
-    df = pd.DataFrame()
-    
-    for ind in players.index:
-        name = players.name[ind]
-        print(name, ind, players.link[ind])
-        df = df.append(get_player_salary(ind, players, name))
+    dfs = [get_player_salary(ind, players, players.name[ind]) for ind in players.index]
+    df = pd.concat(dfs)
+
+    df.Salary = (df.Salary
+                       .str.replace('$','')
+                       .str.replace(',','')
+                       .str.replace('*','')
+                       )
+    df.loc[df.Salary == '', 'Salary'] = np.nan
+    df.Salary = df.Salary.astype(float)
+
+    df.Age = df.Age.astype(float)
+
+    df.loc[df.SrvTm == '?','SrvTm'] = np.nan
+    df.SrvTm = df.SrvTm.astype(float)
+
         
     return df
