@@ -9,6 +9,7 @@ import os
 from selenium.webdriver.common.by import By
 import pickle
 import re
+import time
 
 
 def get_player_data(soup_players, year, name):
@@ -34,7 +35,6 @@ def get_player_data(soup_players, year, name):
     rookie_stats = rookie_stats.loc[:, columns]  
     rookie_stats['position'] = position
     rookie_stats['name'] = name
-    rookie_stats.Year = rookie_stats.Year.astype(int)
 
     return rookie_stats
 
@@ -43,21 +43,37 @@ def get_player_soup(ind, df):
     return BeautifulSoup(url, 'lxml')
 
 def build_rookie_year_df(pages):
-    df = pd.DataFrame()
-    for ind in pages.index:
-        soup_players = get_player_soup(ind, pages)
-        year = str(pages.year[ind])
-        name = str(pages.name[ind])
-    #     print(name, year, scrapped_rookie_players.link[ind])
+    # dfs = []
+    # start_soup = time.time()
+    # soup_players = [get_player_soup(s, pages) for s in pages.index]
+    # end_soup = time.time()
+    dfs = [get_player_data(pages.soup[ind], str(pages.year[ind]), str(pages.name[ind])) for ind in pages.index]
+    # end_data = time.time()
 
-        new_player = get_player_data(soup_players, year, name)
-        if new_player is not None:
-            df = df.append(new_player)
-    
+    # print('Soup:',end_soup - start_soup)
+    # print('Soup:', end_data - end_soup, end='\n\n')
+    # for ind in pages.index:
+    #     # start_loop = time.time()
+    #     year = str(pages.year[ind])
+    #     name = str(pages.name[ind])
+    # #     print(name, year, scrapped_rookie_players.link[ind])
+        
+    #     # start_data = time.time()
+    #     new_player = get_player_data(soup_players[ind], year, name)
+    #     # end_data = time.time()
+    #     # print('Data time', end_data - start_data)
+    #     if new_player is not None:
+    #         dfs.append(new_player)  #df = df.append(new_player)
+    #     # end_loop = time.time()
+    #     # print("loop time:", end_loop-start_loop,end='\n\n')
+    df = pd.concat(dfs)
+    df.Year = df.Year.astype(int)
+
     return df
 
 def build_rookie_table(rookie_pages):
     rookie_df = pd.DataFrame(columns=['Name','Debut','Age','Tm','rookie_year'])
+    rookie_dfs = []
 
     for i in rookie_pages.year.values:
         # scrape the rookie batters (includes pitchers if PA)
@@ -69,12 +85,18 @@ def build_rookie_table(rookie_pages):
         year_df = batting_df[0].loc[:,['Name','Debut','Age','Tm']]
         year_df['rookie_year'] = [i] * batting_df[0].shape[0]
         year_df.rookie_year = year_df.rookie_year.astype(int)
-        rookie_df = rookie_df.append(year_df)
+        rookie_dfs.append(year_df) #= rookie_df.append(year_df)
         
-        # Strip HOF indicator from name
-        rookie_df.Name = rookie_df.Name.str.replace('HOF','')
-        rookie_df[rookie_df.Name.str.contains('HOF')]
-        rookie_df.Name = rookie_df.Name.str.strip()
+    # Combine the rookie_dfs
+    rookie_df = pd.concat(rookie_dfs)
+
+    # Strip HOF indicator from name
+    rookie_df.Name = rookie_df.Name.str.replace('HOF','')
+    rookie_df[rookie_df.Name.str.contains('HOF')]
+    rookie_df.Name = rookie_df.Name.str.strip()
+
+    # Make Debut a date time
+    rookie_df.Debut = rookie_df.Debut.astype('datetime64')
        
     return rookie_df
 
@@ -115,3 +137,11 @@ def load_salary_data(players):
 
         
     return df
+
+def partion_rookie_players(size, df, name):
+    tot = df.shape[0]
+
+    i = 0
+    while i <= tot:
+        df.iloc[i:i+size].to_pickle('data/pickles/'+ name + '_' + str(i//size) + '.pkl')
+    i += size
