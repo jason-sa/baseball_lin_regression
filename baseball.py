@@ -12,6 +12,7 @@ import re
 import time
 
 PATH_RS = '/Users/jadams/ds/metis/baseball_lin_regression/data/processed_df/rookie_stats.csv'
+PATH_S = '/Users/jadams/ds/metis/baseball_lin_regression/data/processed_df/salary.csv'
 
 def get_player_data(html, year, name):
     soup_players = BeautifulSoup(html, 'lxml')
@@ -86,8 +87,8 @@ def build_rookie_table(rookie_pages):
        
     return rookie_df
 
-def get_player_salary(ind, df, name):
-    salary_soup = BeautifulSoup(df.html[ind], 'lxml')
+def get_player_salary(html, year, name, ind):
+    salary_soup = BeautifulSoup(html, 'lxml')
 
     salary_html = salary_soup.find('table',{'id':'br-salaries'})
     if salary_html is None:
@@ -101,28 +102,26 @@ def get_player_salary(ind, df, name):
 
     salary_df['name'] = [name] * salary_df.shape[0]
     salary_df['UID'] = [ind] * salary_df.shape[0]
-    
-    return salary_df
+    salary_df['rookie_year'] = [year] * salary_df.shape[0]
 
-def load_salary_data(players):
-    dfs = [get_player_salary(ind, players, players.name[ind]) for ind in players.index]
-    df = pd.concat(dfs)
+    salary_df.Salary = (salary_df.Salary
+                    .str.replace('$','')
+                    .str.replace(',','')
+                    .str.replace('*','')
+                    )
+    salary_df.loc[salary_df.Salary == '', 'Salary'] = np.nan
+    salary_df.Salary = salary_df.Salary.astype(float)
 
-    df.Salary = (df.Salary
-                       .str.replace('$','')
-                       .str.replace(',','')
-                       .str.replace('*','')
-                       )
-    df.loc[df.Salary == '', 'Salary'] = np.nan
-    df.Salary = df.Salary.astype(float)
+    salary_df.Age = salary_df.Age.astype(float)
 
-    df.Age = df.Age.astype(float)
+    salary_df.loc[salary_df.SrvTm == '?','SrvTm'] = np.nan
+    salary_df.SrvTm = salary_df.SrvTm.astype(float)
 
-    df.loc[df.SrvTm == '?','SrvTm'] = np.nan
-    df.SrvTm = df.SrvTm.astype(float)
-
-        
-    return df
+    if ind == 1:
+        salary_df.to_csv(PATH_S)
+    else:
+        with open(PATH_S, 'a') as f:
+            salary_df.to_csv(f, header=False)
 
 def partion_rookie_players(size, df, name):
     tot = df.shape[0]
