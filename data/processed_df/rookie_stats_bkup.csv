@@ -1,0 +1,550 @@
+,Year,Age,Tm,Lg,G,PA,AB,R,H,SB,BA,HR,TB,2B,3B,RBI,BB,SO,position,name,debut,name_tm
+12,1985,26.0,SFG,NL,54.0,130.0,121.0,12.0,23.0,1.0,0.19,2.0,34.0,3.0,1.0,10.0,5.0,23.0,"Shortstop, Third Baseman and Second Baseman",Ricky Adams,1982-09-15,Ricky Adams_SFG
+5,1985,24.0,DET,AL,15.0,27.0,27.0,4.0,5.0,0.0,0.185,0.0,6.0,1.0,0.0,1.0,0.0,9.0,Shortstop and Second Baseman,Doug Baker,1984-07-02,Doug Baker_DET
+17,1985,27.0,CLE,AL,31.0,73.0,67.0,5.0,12.0,0.0,0.179,0.0,16.0,4.0,0.0,7.0,3.0,9.0,Catcher,Butch Benton,1978-09-14,Butch Benton_CLE
+6,1985,22.0,CHW,AL,95.0,248.0,232.0,20.0,53.0,8.0,0.228,3.0,77.0,13.0,1.0,15.0,14.0,44.0,Outfielder,Daryl Boston,1984-05-13,Daryl Boston_CHW
+8,1985,24.0,LAD,NL,24.0,63.0,53.0,4.0,7.0,0.0,0.132,3.0,16.0,0.0,0.0,6.0,7.0,10.0,First Baseman,Sid Bream,1983-09-01,Sid Bream_LAD
+9,1985,24.0,PIT,NL,26.0,108.0,95.0,14.0,27.0,0.0,0.284,3.0,43.0,7.0,0.0,15.0,11.0,14.0,First Baseman,Sid Bream,1983-09-01,Sid Bream_PIT
+7,1985,23.0,SFG,NL,131.0,482.0,432.0,50.0,117.0,2.0,0.271,16.0,191.0,20.0,3.0,61.0,38.0,78.0,Third Baseman,Chris Brown,1984-09-03,Chris Brown_SFG
+4,1985,23.0,TEX,AL,69.0,236.0,219.0,22.0,48.0,3.0,0.21899999999999997,6.0,78.0,6.0,3.0,21.0,14.0,38.0,Third Baseman and Second Baseman,Steve Buechele,1985-07-19,Steve Buechele_TEX
+6,1985,23.0,SEA,AL,67.0,233.0,210.0,37.0,60.0,4.0,0.28600000000000003,8.0,108.0,16.0,4.0,28.0,19.0,45.0,Outfielder,Ivan Calderon,1984-08-10,Ivan Calderon_SEA
+9,1985,24.0,SEA,AL,4.0,4.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,"Designated Hitter, Pinch Hitter and Leftfielder",Al Chambers,1983-07-23,Al Chambers_SEA
+4,1985,23.0,STL,NL,151.0,692.0,636.0,107.0,170.0,110.0,0.267,1.0,213.0,20.0,10.0,40.0,50.0,115.0,Leftfielder,Vince Coleman,1985-04-18,Vince Coleman_STL
+8,1985,26.0,SDP,NL,44.0,64.0,58.0,10.0,17.0,0.0,0.293,0.0,22.0,3.0,1.0,2.0,5.0,7.0,Rightfielder and Pinch Hitter,Gerry Davis,1983-09-20,Gerry Davis_SDP
+6,1985,24.0,HOU,NL,100.0,390.0,350.0,51.0,95.0,0.0,0.271,20.0,166.0,11.0,0.0,64.0,27.0,68.0,First Baseman,Glenn Davis,1984-09-02,Glenn Davis_HOU
+8,1985,24.0,SFG,NL,78.0,187.0,162.0,22.0,30.0,0.0,0.185,8.0,61.0,5.0,1.0,20.0,23.0,71.0,Rightfielder and First Baseman,Rob Deer,1984-09-04,Rob Deer_SFG
+11,1985,25.0,CHW,AL,28.0,48.0,44.0,5.0,8.0,0.0,0.182,2.0,16.0,2.0,0.0,7.0,3.0,6.0,"Pinch Hitter, First Baseman and Outfielder",Joe DeSa,1980-09-06,Joe DeSa_CHW
+8,1985,25.0,TEX,AL,45.0,117.0,104.0,7.0,21.0,0.0,0.20199999999999999,1.0,28.0,4.0,0.0,5.0,12.0,9.0,"Outfielder, Pinch Hitter and Designated Hitter",Tom Dunbar,1983-09-07,Tom Dunbar_TEX
+3,1985,22.0,LAD,NL,142.0,620.0,562.0,74.0,137.0,38.0,0.244,6.0,191.0,24.0,6.0,39.0,38.0,113.0,"Second Baseman, Shortstop and Leftfielder",Mariano Duncan,1985-04-09,Mariano Duncan_LAD
+4,1985,22.0,CHC,NL,74.0,272.0,250.0,40.0,65.0,11.0,0.26,4.0,97.0,12.0,4.0,18.0,19.0,42.0,Shortstop and Outfielder,Shawon Dunston,1985-04-09,Shawon Dunston_CHC
+5,1985,22.0,NYM,NL,83.0,273.0,236.0,40.0,60.0,15.0,0.254,1.0,78.0,9.0,3.0,19.0,30.0,24.0,Centerfielder,Lenny Dykstra,1985-05-03,Lenny Dykstra_NYM
+8,1985,23.0,MIN,AL,114.0,322.0,293.0,37.0,66.0,10.0,0.225,2.0,93.0,15.0,3.0,23.0,20.0,57.0,Shortstop,Greg Gagne,1983-06-05,Greg Gagne_MIN
+4,1985,26.0,CAL,AL,65.0,97.0,91.0,8.0,24.0,0.0,0.264,0.0,29.0,1.0,2.0,6.0,2.0,3.0,Shortstop and Third Baseman,Craig Gerber,1985-04-11,Craig Gerber_CAL
+6,1985,21.0,PIT,NL,35.0,138.0,124.0,11.0,28.0,2.0,0.226,4.0,44.0,4.0,0.0,12.0,13.0,27.0,"Third Baseman, Shortstop and Leftfielder",Denny Gonzalez,1984-08-06,Denny Gonzalez_PIT
+4,1985,21.0,CHW,AL,150.0,513.0,491.0,71.0,134.0,7.0,0.273,1.0,176.0,21.0,9.0,33.0,12.0,36.0,Shortstop,Ozzie Guillen,1985-04-09,Ozzie Guillen_CHW
+6,1985,24.0,CHC,NL,53.0,178.0,163.0,24.0,40.0,2.0,0.245,2.0,60.0,12.0,1.0,10.0,8.0,12.0,Outfielder,Billy Hatcher,1984-09-10,Billy Hatcher_CHC
+3,1985,23.0,CAL,AL,43.0,158.0,137.0,19.0,27.0,1.0,0.19699999999999998,5.0,46.0,4.0,0.0,18.0,16.0,33.0,"Third Baseman, Leftfielder and First Baseman",Jack Howell,1985-05-20,Jack Howell_CAL
+7,1985,25.0,CHW,AL,141.0,437.0,395.0,52.0,106.0,6.0,0.268,5.0,148.0,19.0,4.0,37.0,30.0,81.0,Third Baseman and Second Baseman,Tim Hulett,1983-09-15,Tim Hulett_CHW
+8,1985,26.0,PHI,NL,89.0,228.0,196.0,17.0,37.0,1.0,0.18899999999999997,0.0,43.0,4.0,1.0,12.0,26.0,55.0,"Shortstop, Second Baseman and Third Baseman",Steve Jeltz,1983-07-17,Steve Jeltz_PHI
+9,1985,26.0,MON,NL,3.0,5.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,Outfielder and Pinch Hitter,Roy Johnson,1982-07-03,Roy Johnson_MON
+4,1985,21.0,PIT,NL,95.0,367.0,320.0,30.0,76.0,5.0,0.23800000000000002,2.0,102.0,14.0,3.0,31.0,34.0,56.0,Shortstop and Second Baseman,Sam Khalifa,1985-06-25,Sam Khalifa_PIT
+9,1985,25.0,DET,AL,9.0,36.0,36.0,3.0,6.0,0.0,0.16699999999999998,2.0,13.0,1.0,0.0,6.0,0.0,9.0,First Baseman and Pinch Hitter,Mike Laga,1982-09-01,Mike Laga_DET
+6,1985,25.0,KCR,AL,15.0,35.0,34.0,1.0,3.0,0.0,0.08800000000000001,0.0,3.0,0.0,0.0,4.0,1.0,3.0,Outfielder and Pinch Hitter,Dave Leeper,1984-09-10,Dave Leeper_KCR
+9,1985,27.0,MIL,AL,24.0,70.0,66.0,10.0,14.0,0.0,0.212,0.0,21.0,3.0,2.0,7.0,1.0,12.0,Outfielder,Doug Loman,1984-09-03,Doug Loman_MIL
+14,1985,28.0,PIT,NL,4.0,9.0,7.0,1.0,2.0,0.0,0.28600000000000003,0.0,4.0,2.0,0.0,1.0,2.0,2.0,Centerfielder,Scott Loucks,1980-09-01,Scott Loucks_PIT
+4,1985,25.0,BOS,AL,133.0,409.0,371.0,52.0,98.0,12.0,0.264,5.0,133.0,14.0,3.0,30.0,32.0,64.0,"Outfielder, Third Baseman and Second Baseman",Steve Lyons,1985-04-15,Steve Lyons_BOS
+9,1985,24.0,NYY,AL,6.0,7.0,7.0,1.0,1.0,0.0,0.14300000000000002,0.0,1.0,0.0,0.0,0.0,0.0,0.0,Outfielder,Victor Mata,1984-07-22,Victor Mata_NYY
+1,1985,22.0,TEX,AL,111.0,452.0,406.0,63.0,97.0,25.0,0.239,18.0,175.0,14.0,5.0,42.0,36.0,85.0,Centerfielder,Oddibe McDowell,1985-05-19,Oddibe McDowell_TEX
+5,1985,24.0,STL,NL,95.0,288.0,253.0,15.0,57.0,0.0,0.225,0.0,71.0,10.0,2.0,34.0,26.0,37.0,Catcher,Tom Nieto,1984-05-10,Tom Nieto_STL
+8,1985,26.0,CLE,AL,104.0,174.0,162.0,34.0,38.0,20.0,0.235,3.0,51.0,4.0,0.0,9.0,8.0,27.0,Centerfielder,Otis Nixon,1983-09-09,Otis Nixon_CLE
+6,1985,23.0,PIT,NL,121.0,436.0,397.0,54.0,119.0,24.0,0.3,0.0,145.0,14.0,6.0,21.0,26.0,27.0,Outfielder,Joe Orsulak,1983-09-01,Joe Orsulak_PIT
+9,1985,27.0,CHC,NL,22.0,20.0,19.0,6.0,7.0,1.0,0.368,0.0,7.0,0.0,0.0,4.0,1.0,5.0,"Shortstop, Third Baseman and Second Baseman",Dave Owen,1983-09-06,Dave Owen_CHC
+10,1985,29.0,HOU,NL,75.0,191.0,172.0,24.0,42.0,1.0,0.244,4.0,57.0,3.0,0.0,14.0,17.0,29.0,"Pinch Hitter, Second Baseman and Outfielder",Jim Pankovits,1984-05-27,Jim Pankovits_HOU
+4,1985,23.0,NYY,AL,60.0,166.0,148.0,17.0,31.0,0.0,0.209,9.0,63.0,3.0,1.0,25.0,16.0,38.0,Outfielder and First Baseman,Dan Pasqua,1985-05-30,Dan Pasqua_NYY
+11,1985,25.0,TEX,AL,42.0,116.0,100.0,7.0,27.0,1.0,0.27,0.0,29.0,2.0,0.0,11.0,8.0,12.0,"Catcher, Pinch Hitter and Third Baseman",Geno Petralli,1982-09-04,Geno Petralli_TEX
+7,1985,24.0,SEA,AL,67.0,122.0,104.0,15.0,15.0,3.0,0.14400000000000002,0.0,20.0,3.0,1.0,6.0,17.0,14.0,Second Baseman,Harold Reynolds,1983-09-02,Harold Reynolds_SEA
+5,1985,24.0,MIL,AL,116.0,495.0,448.0,54.0,128.0,2.0,0.28600000000000003,5.0,169.0,12.0,7.0,45.0,36.0,54.0,"Shortstop, Third Baseman and Pinch Hitter",Ernie Riles,1985-05-14,Ernie Riles_MIL
+10,1985,27.0,ATL,NL,50.0,110.0,87.0,15.0,19.0,0.0,0.218,1.0,25.0,3.0,0.0,5.0,18.0,18.0,"Third Baseman, Pinch Hitter and Second Baseman",Paul Runge,1981-09-25,Paul Runge_ATL
+5,1985,24.0,PHI,NL,81.0,234.0,216.0,22.0,47.0,2.0,0.218,9.0,86.0,12.0,0.0,23.0,18.0,72.0,"Catcher, Leftfielder and First Baseman",John Russell,1984-06-22,John Russell_PHI
+7,1985,24.0,MIN,AL,120.0,382.0,360.0,51.0,108.0,0.0,0.3,9.0,165.0,20.0,5.0,41.0,18.0,37.0,Catcher and Pinch Hitter,Mark Salas,1984-06-19,Mark Salas_MIN
+11,1985,26.0,DET,AL,71.0,133.0,133.0,19.0,33.0,2.0,0.248,6.0,61.0,6.0,2.0,12.0,0.0,39.0,"Rightfielder, Designated Hitter and Pinch Hitter",Alejandro Sanchez,1982-09-06,Alejandro Sanchez_DET
+6,1985,23.0,PHI,NL,112.0,457.0,416.0,54.0,105.0,8.0,0.252,7.0,155.0,21.0,4.0,24.0,38.0,78.0,Third Baseman and First Baseman,Rick Schu,1984-09-01,Rick Schu_PHI
+7,1985,25.0,BAL,AL,113.0,361.0,328.0,43.0,86.0,0.0,0.262,17.0,145.0,8.0,0.0,50.0,28.0,52.0,Designated Hitter and Outfielder,Larry Sheets,1984-09-18,Larry Sheets_BAL
+6,1985,22.0,DET,AL,75.0,281.0,251.0,31.0,60.0,1.0,0.239,10.0,101.0,11.0,0.0,33.0,26.0,41.0,Outfielder and Designated Hitter,Nelson Simmons,1984-09-04,Nelson Simmons_DET
+8,1985,24.0,CHW,AL,22.0,50.0,44.0,9.0,15.0,0.0,0.341,1.0,24.0,4.0,1.0,5.0,5.0,13.0,Catcher,Joel Skinner,1983-06-12,Joel Skinner_CHW
+6,1985,24.0,OAK,AL,78.0,246.0,211.0,23.0,53.0,2.0,0.251,3.0,74.0,12.0,0.0,15.0,28.0,59.0,"Catcher, Rightfielder and First Baseman",Mickey Tettleton,1984-06-30,Mickey Tettleton_OAK
+8,1985,26.0,ATL,NL,73.0,193.0,182.0,17.0,55.0,9.0,0.302,0.0,66.0,7.0,2.0,6.0,7.0,36.0,Outfielder and Pinch Hitter,Milt Thompson,1984-09-04,Milt Thompson_ATL
+12,1985,29.0,HOU,NL,31.0,46.0,43.0,4.0,6.0,0.0,0.14,2.0,13.0,1.0,0.0,8.0,1.0,10.0,"Pinch Hitter, Outfielder and First Baseman",Tim Tolman,1981-09-09,Tim Tolman_HOU
+5,1985,26.0,SFG,NL,147.0,513.0,476.0,46.0,113.0,8.0,0.237,3.0,150.0,20.0,4.0,26.0,30.0,57.0,Shortstop,Jose Uribe,1984-09-13,Jose Uribe_SFG
+12,1985,26.0,TOR,AL,4.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Outfielder,Mitch Webster,1983-09-02,Mitch Webster_TOR
+13,1985,26.0,MON,NL,74.0,234.0,212.0,32.0,58.0,15.0,0.27399999999999997,11.0,103.0,8.0,2.0,30.0,20.0,33.0,Outfielder,Mitch Webster,1983-09-02,Mitch Webster_MON
+6,1985,23.0,MON,NL,125.0,345.0,312.0,30.0,74.0,20.0,0.237,3.0,99.0,6.0,5.0,21.0,28.0,72.0,Centerfielder and Pinch Hitter,Herm Winningham,1984-09-01,Herm Winningham_MON
+9,1985,26.0,ATL,NL,81.0,210.0,190.0,16.0,48.0,2.0,0.253,0.0,58.0,8.0,1.0,4.0,16.0,14.0,"Shortstop, Second Baseman and Third Baseman",Paul Zuvella,1982-09-04,Paul Zuvella_ATL
+4,1986,25.0,SFG,NL,84.0,256.0,216.0,27.0,54.0,1.0,0.25,2.0,84.0,18.0,3.0,25.0,33.0,34.0,"Outfielder, Pinch Hitter and First Baseman",Mike Aldrete,1986-05-28,Mike Aldrete_SFG
+3,1986,24.0,CLE,AL,101.0,324.0,293.0,30.0,66.0,10.0,0.225,1.0,82.0,7.0,3.0,29.0,14.0,36.0,Catcher,Andy Allanson,1986-04-07,Andy Allanson_CLE
+9,1986,24.0,MIN,AL,80.0,194.0,183.0,20.0,39.0,2.0,0.213,3.0,54.0,6.0,0.0,15.0,11.0,54.0,Outfielder,Billy Beane,1984-09-13,Billy Beane_MIN
+9,1986,24.0,PIT,NL,117.0,350.0,309.0,33.0,72.0,12.0,0.233,0.0,81.0,5.0,2.0,31.0,26.0,54.0,Shortstop and Second Baseman,Rafael Belliard,1982-09-06,Rafael Belliard_PIT
+2,1986,21.0,PIT,NL,113.0,484.0,413.0,72.0,92.0,36.0,0.223,16.0,172.0,26.0,3.0,48.0,65.0,102.0,Leftfielder,Barry Bonds,1986-05-30,Barry Bonds_PIT
+6,1986,23.0,CHW,AL,75.0,271.0,234.0,27.0,63.0,4.0,0.26899999999999996,2.0,83.0,10.0,2.0,26.0,33.0,49.0,"Third Baseman, Rightfielder and First Baseman",Bobby Bonilla,1986-04-09,Bobby Bonilla_CHW
+7,1986,23.0,PIT,NL,63.0,225.0,192.0,28.0,46.0,4.0,0.24,1.0,59.0,6.0,2.0,17.0,29.0,39.0,"Third Baseman, Rightfielder and First Baseman",Bobby Bonilla,1986-04-09,Bobby Bonilla_PIT
+9,1986,26.0,CHW,AL,9.0,24.0,21.0,3.0,6.0,0.0,0.28600000000000003,0.0,6.0,0.0,0.0,0.0,1.0,0.0,Catcher and Pinch Hitter,Scott Bradley,1984-09-09,Scott Bradley_CHW
+10,1986,26.0,SEA,AL,68.0,217.0,199.0,17.0,60.0,1.0,0.302,5.0,89.0,8.0,3.0,28.0,12.0,7.0,Catcher and Pinch Hitter,Scott Bradley,1984-09-09,Scott Bradley_SEA
+4,1986,23.0,MIL,AL,58.0,232.0,215.0,19.0,51.0,1.0,0.237,4.0,75.0,8.0,2.0,18.0,11.0,47.0,Outfielder,Glenn Braggs,1986-07-18,Glenn Braggs_MIL
+5,1986,23.0,CHW,AL,137.0,525.0,438.0,65.0,103.0,50.0,0.235,2.0,131.0,16.0,3.0,32.0,71.0,61.0,Outfielder and Pinch Hitter,John Cangelosi,1985-06-30,John Cangelosi_CHW
+5,1986,21.0,OAK,AL,157.0,682.0,600.0,85.0,144.0,15.0,0.24,33.0,274.0,29.0,1.0,117.0,65.0,175.0,Outfielder and Designated Hitter,Jose Canseco,1985-09-02,Jose Canseco_OAK
+2,1986,22.0,SFG,NL,111.0,458.0,408.0,66.0,117.0,4.0,0.287,11.0,181.0,27.0,2.0,41.0,34.0,76.0,First Baseman,Will Clark,1986-04-08,Will Clark_SFG
+5,1986,22.0,CIN,NL,74.0,207.0,181.0,34.0,58.0,15.0,0.32,6.0,94.0,10.0,4.0,23.0,22.0,30.0,Leftfielder,Kal Daniels,1986-04-09,Kal Daniels_CIN
+9,1986,24.0,PHI,NL,49.0,181.0,138.0,18.0,31.0,2.0,0.225,8.0,59.0,4.0,0.0,21.0,38.0,41.0,"Catcher, Rightfielder and First Baseman",Darren Daulton,1983-09-25,Darren Daulton_PHI
+10,1986,26.0,PIT,NL,97.0,233.0,209.0,22.0,56.0,0.0,0.268,12.0,101.0,9.0,0.0,36.0,19.0,43.0,"Pinch Hitter, First Baseman and Leftfielder",Mike Diaz,1983-09-15,Mike Diaz_PIT
+16,1986,30.0,NYY,AL,27.0,40.0,37.0,1.0,6.0,0.0,0.162,0.0,8.0,2.0,0.0,5.0,2.0,9.0,Catcher,Juan Espino,1982-06-25,Juan Espino_NYY
+7,1986,24.0,MIL,AL,44.0,174.0,155.0,24.0,37.0,16.0,0.239,1.0,50.0,2.0,4.0,13.0,13.0,16.0,Outfielder,Mike Felder,1985-09-11,Mike Felder_MIL
+6,1986,22.0,TOR,AL,34.0,90.0,83.0,7.0,13.0,0.0,0.157,4.0,27.0,2.0,0.0,13.0,6.0,27.0,First Baseman and Designated Hitter,Cecil Fielder,1985-07-20,Cecil Fielder_TOR
+7,1986,25.0,STL,NL,85.0,240.0,214.0,30.0,53.0,13.0,0.248,2.0,78.0,15.0,2.0,29.0,23.0,29.0,Outfielder and Pinch Hitter,Curt Ford,1985-06-22,Curt Ford_STL
+8,1986,25.0,MON,NL,105.0,356.0,321.0,39.0,87.0,6.0,0.271,10.0,130.0,13.0,0.0,42.0,30.0,79.0,First Baseman,Andres Galarraga,1985-08-23,Andres Galarraga_MON
+8,1986,24.0,TOR,AL,87.0,152.0,143.0,20.0,28.0,2.0,0.196,5.0,49.0,4.0,1.0,15.0,5.0,27.0,Third Baseman and Outfielder,Kelly Gruber,1984-04-20,Kelly Gruber_TOR
+4,1986,22.0,LAD,NL,71.0,151.0,147.0,22.0,33.0,0.0,0.22399999999999998,5.0,53.0,5.0,0.0,19.0,2.0,43.0,Third Baseman,Jeff Hamilton,1986-06-28,Jeff Hamilton_LAD
+9,1986,25.0,NYM,NL,49.0,151.0,136.0,16.0,36.0,0.0,0.265,4.0,53.0,5.0,0.0,10.0,12.0,19.0,Catcher,Ed Hearn,1986-05-17,Ed Hearn_NYM
+5,1986,24.0,TOR,AL,12.0,26.0,23.0,2.0,5.0,0.0,0.217,0.0,6.0,1.0,0.0,4.0,3.0,7.0,Catcher,Jeff Hearron,1985-08-25,Jeff Hearron_TOR
+0,1986,22.0,TEX,AL,153.0,606.0,540.0,82.0,135.0,3.0,0.25,30.0,250.0,21.0,2.0,88.0,55.0,185.0,Leftfielder,Pete Incaviglia,1986-04-08,Pete Incaviglia_TEX
+15,1986,29.0,MON,NL,61.0,134.0,127.0,13.0,36.0,6.0,0.28300000000000003,1.0,44.0,3.0,1.0,10.0,7.0,9.0,"Pinch Hitter, First Baseman and Second Baseman",Wallace Johnson,1981-09-08,Wallace Johnson_MON
+3,1986,24.0,CAL,AL,154.0,674.0,593.0,82.0,172.0,5.0,0.29,22.0,271.0,27.0,3.0,100.0,57.0,58.0,First Baseman,Wally Joyner,1986-04-08,Wally Joyner_CAL
+7,1986,25.0,KCR,AL,62.0,223.0,209.0,25.0,54.0,7.0,0.258,3.0,81.0,8.0,5.0,14.0,12.0,30.0,Outfielder,Mike Kingery,1986-07-07,Mike Kingery_KCR
+6,1986,25.0,SDP,NL,122.0,327.0,278.0,33.0,86.0,2.0,0.309,4.0,118.0,16.0,2.0,38.0,45.0,58.0,First Baseman and Outfielder,John Kruk,1986-04-07,John Kruk_SDP
+8,1986,26.0,SFG,NL,71.0,203.0,186.0,28.0,44.0,6.0,0.237,7.0,76.0,9.0,1.0,16.0,11.0,41.0,"Outfielder, Third Baseman and Shortstop",Randy Kutcher,1986-06-19,Randy Kutcher_SFG
+2,1986,22.0,CIN,NL,41.0,169.0,159.0,27.0,45.0,8.0,0.28300000000000003,3.0,64.0,4.0,3.0,19.0,9.0,21.0,Shortstop,Barry Larkin,1986-08-13,Barry Larkin_CIN
+7,1986,25.0,STL,NL,110.0,350.0,303.0,18.0,71.0,0.0,0.23399999999999999,3.0,94.0,10.0,2.0,30.0,36.0,37.0,Catcher,Mike LaValliere,1984-09-09,Mike LaValliere_STL
+6,1986,26.0,MIN,AL,156.0,515.0,453.0,53.0,103.0,3.0,0.22699999999999998,8.0,157.0,20.0,5.0,33.0,52.0,76.0,Second Baseman,Steve Lombardozzi,1985-07-12,Steve Lombardozzi_MIN
+9,1986,28.0,DET,AL,56.0,174.0,150.0,21.0,46.0,0.0,0.307,3.0,59.0,4.0,0.0,18.0,17.0,19.0,Catcher,Dwight Lowry,1984-04-03,Dwight Lowry_DET
+6,1986,24.0,SFG,NL,89.0,289.0,268.0,24.0,60.0,3.0,0.22399999999999998,5.0,93.0,14.0,2.0,25.0,15.0,69.0,Catcher,Bob Melvin,1985-05-25,Bob Melvin_SFG
+10,1986,28.0,CAL,AL,33.0,62.0,57.0,6.0,13.0,0.0,0.228,0.0,17.0,2.0,1.0,4.0,4.0,8.0,"Catcher, Outfielder and First Baseman",Darrell Miller,1984-08-14,Darrell Miller_CAL
+7,1986,24.0,NYM,NL,108.0,364.0,328.0,51.0,91.0,3.0,0.27699999999999997,12.0,153.0,22.0,2.0,43.0,33.0,61.0,Leftfielder and Third Baseman,Kevin Mitchell,1984-09-04,Kevin Mitchell_NYM
+11,1986,25.0,HOU,NL,44.0,107.0,81.0,9.0,15.0,0.0,0.185,1.0,21.0,1.0,1.0,6.0,24.0,16.0,Catcher,John Mizerock,1983-04-12,John Mizerock_HOU
+4,1986,24.0,CHW,AL,49.0,180.0,159.0,18.0,40.0,1.0,0.252,4.0,57.0,5.0,0.0,17.0,16.0,36.0,First Baseman and Outfielder,Russ Morman,1986-08-03,Russ Morman_CHW
+5,1986,26.0,MON,NL,95.0,212.0,185.0,23.0,37.0,11.0,0.2,1.0,43.0,3.0,0.0,8.0,21.0,20.0,"Second Baseman, Shortstop and Third Baseman",Al Newman,1985-06-14,Al Newman_MON
+6,1986,24.0,SFG,NL,10.0,26.0,23.0,1.0,4.0,0.0,0.174,0.0,4.0,0.0,0.0,0.0,3.0,3.0,Catcher and Pinch Hitter,Phil Ouellette,1986-09-10,Phil Ouellette_SFG
+9,1986,24.0,SFG,NL,71.0,115.0,106.0,13.0,19.0,3.0,0.179,0.0,26.0,1.0,3.0,11.0,3.0,17.0,"Pinch Hitter, Third Baseman and Second Baseman",Luis Quinones,1983-05-27,Luis Quinones_SFG
+5,1986,22.0,BOS,AL,62.0,215.0,190.0,26.0,45.0,3.0,0.237,2.0,65.0,12.0,1.0,15.0,19.0,26.0,Shortstop,Rey Quinones,1986-05-17,Rey Quinones_BOS
+6,1986,22.0,SEA,AL,36.0,131.0,122.0,6.0,23.0,1.0,0.18899999999999997,0.0,27.0,4.0,0.0,7.0,5.0,31.0,Shortstop,Rey Quinones,1986-05-17,Rey Quinones_SEA
+9,1986,23.0,MIN,AL,68.0,185.0,165.0,13.0,39.0,1.0,0.23600000000000002,2.0,53.0,6.0,1.0,9.0,16.0,19.0,Catcher,Jeff Reed,1984-04-05,Jeff Reed_MIN
+11,1986,27.0,PHI,NL,43.0,132.0,126.0,8.0,27.0,0.0,0.214,3.0,40.0,4.0,0.0,10.0,5.0,30.0,Catcher,Ronn Reynolds,1982-09-29,Ronn Reynolds_PHI
+5,1986,22.0,MON,NL,55.0,187.0,166.0,20.0,34.0,1.0,0.205,0.0,47.0,11.0,1.0,13.0,17.0,33.0,Shortstop and Second Baseman,Luis Rivera,1986-08-03,Luis Rivera_MON
+4,1986,22.0,SDP,NL,101.0,258.0,241.0,34.0,61.0,14.0,0.253,1.0,73.0,5.0,2.0,12.0,14.0,29.0,"Second Baseman, Leftfielder and Third Baseman",Bip Roberts,1986-04-07,Bip Roberts_SDP
+6,1986,22.0,MIL,AL,56.0,215.0,181.0,15.0,41.0,0.0,0.22699999999999998,1.0,52.0,8.0,0.0,21.0,33.0,36.0,First Baseman and Leftfielder,Billy Jo Robidoux,1985-09-11,Billy Jo Robidoux_MIL
+13,1986,30.0,CLE,AL,6.0,11.0,10.0,1.0,2.0,0.0,0.2,0.0,2.0,0.0,0.0,2.0,1.0,1.0,"Pinch Hitter, Second Baseman and Third Baseman",Dan Rohn,1983-09-02,Dan Rohn_CLE
+10,1986,25.0,TOR,AL,65.0,73.0,69.0,16.0,14.0,0.0,0.203,2.0,24.0,4.0,0.0,4.0,3.0,22.0,"Outfielder, Pinch Runner and Designated Hitter",Ron Shepherd,1984-09-05,Ron Shepherd_TOR
+4,1986,20.0,TEX,AL,113.0,411.0,382.0,50.0,101.0,7.0,0.264,16.0,182.0,13.0,10.0,55.0,22.0,65.0,Rightfielder,Ruben Sierra,1986-06-01,Ruben Sierra_TEX
+2,1986,23.0,CLE,AL,103.0,433.0,416.0,58.0,113.0,2.0,0.272,24.0,208.0,21.0,1.0,69.0,16.0,123.0,"Rightfielder, Shortstop and First Baseman",Cory Snyder,1986-06-13,Cory Snyder_CLE
+10,1986,26.0,BAL,AL,52.0,137.0,120.0,14.0,28.0,0.0,0.233,2.0,36.0,2.0,0.0,13.0,16.0,25.0,Catcher,John Stefero,1983-06-24,John Stefero_BAL
+4,1986,21.0,CIN,NL,104.0,315.0,279.0,31.0,64.0,6.0,0.22899999999999998,0.0,72.0,6.0,1.0,26.0,30.0,47.0,Shortstop and Second Baseman,Kurt Stillwell,1986-04-13,Kurt Stillwell_CIN
+11,1986,27.0,BOS,AL,41.0,134.0,119.0,15.0,23.0,0.0,0.193,1.0,30.0,4.0,0.0,14.0,7.0,32.0,Catcher,Marc Sullivan,1982-10-01,Marc Sullivan_BOS
+5,1986,22.0,MIL,AL,91.0,356.0,317.0,35.0,78.0,4.0,0.24600000000000002,7.0,116.0,13.0,2.0,35.0,32.0,63.0,"Shortstop, Third Baseman and First Baseman",Dale Sveum,1986-05-12,Dale Sveum_MIL
+8,1986,23.0,SEA,AL,137.0,578.0,511.0,76.0,138.0,4.0,0.27,25.0,250.0,25.0,6.0,96.0,61.0,157.0,Rightfielder and Designated Hitter,Danny Tartabull,1984-09-07,Danny Tartabull_SEA
+6,1986,26.0,KCR,AL,4.0,2.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"Pinch Runner, Designated Hitter and Centerfielder",Dwight Taylor,1986-04-14,Dwight Taylor_KCR
+5,1986,22.0,ATL,NL,102.0,335.0,323.0,26.0,81.0,4.0,0.251,6.0,120.0,17.0,2.0,32.0,8.0,49.0,Shortstop,Andres Thomas,1985-09-03,Andres Thomas_ATL
+3,1986,24.0,SFG,NL,149.0,615.0,549.0,73.0,149.0,12.0,0.271,7.0,203.0,27.0,3.0,47.0,42.0,112.0,Second Baseman,Robby Thompson,1986-04-08,Robby Thompson_SFG
+7,1986,24.0,BAL,AL,65.0,240.0,212.0,28.0,54.0,0.0,0.255,13.0,100.0,7.0,0.0,44.0,18.0,31.0,First Baseman and Outfielder,Jim Traber,1984-09-21,Jim Traber_BAL
+11,1986,25.0,SEA,AL,22.0,60.0,53.0,10.0,18.0,0.0,0.34,5.0,36.0,3.0,0.0,15.0,7.0,7.0,Catcher,Dave Valle,1984-09-07,Dave Valle_SEA
+17,1986,27.0,CHC,NL,28.0,112.0,101.0,21.0,28.0,15.0,0.27699999999999997,1.0,38.0,3.0,2.0,7.0,10.0,20.0,"Pinch Hitter, Outfielder and Third Baseman",Chico Walker,1980-09-02,Chico Walker_CHC
+6,1986,26.0,HOU,NL,84.0,101.0,90.0,19.0,20.0,11.0,0.222,2.0,33.0,7.0,0.0,10.0,11.0,15.0,Centerfielder and Pinch Runner,Tony Walker,1986-04-08,Tony Walker_HOU
+6,1986,25.0,LAD,NL,128.0,338.0,303.0,35.0,84.0,9.0,0.27699999999999997,4.0,114.0,14.0,2.0,32.0,23.0,57.0,Outfielder,Reggie Williams,1985-09-02,Reggie Williams_LAD
+10,1986,26.0,SFG,NL,48.0,90.0,79.0,14.0,20.0,7.0,0.253,1.0,27.0,2.0,1.0,5.0,10.0,9.0,Second Baseman and Pinch Hitter,Mike Woodard,1985-09-11,Mike Woodard_SFG
+5,1987,21.0,CLE,AL,38.0,137.0,125.0,14.0,27.0,2.0,0.21600000000000003,2.0,44.0,9.0,1.0,13.0,8.0,31.0,Shortstop and Second Baseman,Jay Bell,1986-09-29,Jay Bell_CLE
+7,1987,24.0,BOS,AL,73.0,253.0,223.0,36.0,62.0,5.0,0.278,8.0,99.0,11.0,1.0,43.0,22.0,41.0,First Baseman and Outfielder,Todd Benzinger,1987-06-21,Todd Benzinger_BOS
+4,1987,21.0,ATL,NL,51.0,187.0,165.0,11.0,40.0,7.0,0.242,2.0,58.0,6.0,3.0,15.0,18.0,34.0,"Shortstop, Second Baseman and Third Baseman",Jeff Blauser,1987-07-05,Jeff Blauser_ATL
+6,1987,26.0,SEA,AL,92.0,378.0,351.0,52.0,106.0,13.0,0.302,14.0,175.0,23.0,2.0,54.0,24.0,44.0,Outfielder,Mickey Brantley,1986-08-09,Mickey Brantley_SEA
+6,1987,27.0,TEX,AL,127.0,349.0,303.0,63.0,79.0,15.0,0.261,14.0,137.0,10.0,3.0,46.0,36.0,66.0,Outfielder,Bob Brower,1986-09-03,Bob Brower_TEX
+5,1987,21.0,TEX,AL,132.0,526.0,454.0,63.0,123.0,27.0,0.271,1.0,154.0,16.0,6.0,38.0,61.0,50.0,"Second Baseman, Outfielder and Third Baseman",Jerry Browne,1986-09-06,Jerry Browne_TEX
+9,1987,26.0,LAD,NL,46.0,81.0,69.0,7.0,17.0,2.0,0.24600000000000002,2.0,27.0,2.0,1.0,10.0,10.0,24.0,Rightfielder and Pinch Hitter,Ralph Bryant,1985-09-08,Ralph Bryant_LAD
+5,1987,22.0,BOS,AL,133.0,606.0,558.0,94.0,152.0,27.0,0.272,20.0,246.0,30.0,2.0,59.0,41.0,98.0,Outfielder,Ellis Burks,1987-04-30,Ellis Burks_BOS
+3,1987,24.0,HOU,NL,63.0,218.0,203.0,10.0,50.0,0.0,0.24600000000000002,3.0,68.0,7.0,1.0,23.0,12.0,44.0,Third Baseman,Ken Caminiti,1987-07-16,Ken Caminiti_HOU
+5,1987,26.0,MON,NL,138.0,495.0,449.0,62.0,122.0,7.0,0.272,1.0,156.0,23.0,4.0,23.0,38.0,28.0,"Second Baseman, Outfielder and Shortstop",Casey Candaele,1986-06-05,Casey Candaele_MON
+9,1987,25.0,MIL,AL,116.0,372.0,321.0,44.0,72.0,15.0,0.22399999999999998,3.0,100.0,11.0,4.0,28.0,33.0,76.0,"Second Baseman, Shortstop and Third Baseman",Juan Castillo,1986-04-12,Juan Castillo_MIL
+9,1987,26.0,SEA,AL,53.0,146.0,132.0,19.0,32.0,2.0,0.242,2.0,46.0,6.0,1.0,12.0,12.0,28.0,Rightfielder and Pinch Hitter,John Christensen,1984-09-13,John Christensen_SEA
+6,1987,24.0,CLE,AL,29.0,89.0,87.0,11.0,18.0,1.0,0.207,3.0,32.0,5.0,0.0,12.0,2.0,24.0,Outfielder and Pinch Hitter,Dave Clark,1986-09-03,Dave Clark_CLE
+3,1987,22.0,SDP,NL,77.0,276.0,241.0,23.0,57.0,15.0,0.237,0.0,68.0,7.0,2.0,13.0,28.0,26.0,Second Baseman and Shortstop,Joey Cora,1987-04-06,Joey Cora_SDP
+6,1987,26.0,MIN,AL,102.0,169.0,150.0,32.0,40.0,9.0,0.267,1.0,49.0,4.0,1.0,14.0,13.0,26.0,Outfielder,Mark Davidson,1986-06-20,Mark Davidson_MIN
+5,1987,22.0,TOR,AL,13.0,28.0,25.0,2.0,3.0,0.0,0.12,1.0,7.0,1.0,0.0,2.0,2.0,12.0,Catcher,Jeff DeWillis,1987-04-19,Jeff DeWillis_TOR
+11,1987,26.0,HOU,NL,18.0,26.0,24.0,1.0,3.0,1.0,0.125,0.0,3.0,0.0,0.0,1.0,2.0,9.0,Outfielder and Pinch Hitter,Ty Gainey,1985-04-24,Ty Gainey_HOU
+9,1987,26.0,OAK,AL,72.0,143.0,124.0,18.0,31.0,0.0,0.25,2.0,43.0,6.0,0.0,14.0,12.0,21.0,"Second Baseman, Shortstop and Third Baseman",Mike Gallego,1985-04-11,Mike Gallego_OAK
+6,1987,26.0,BAL,AL,92.0,310.0,284.0,41.0,69.0,9.0,0.243,14.0,125.0,10.0,2.0,34.0,17.0,53.0,Outfielder,Ken Gerhart,1986-09-14,Ken Gerhart_BAL
+7,1987,23.0,BOS,AL,125.0,456.0,412.0,71.0,135.0,5.0,0.32799999999999996,19.0,235.0,31.0,6.0,89.0,35.0,40.0,Leftfielder,Mike Greenwell,1985-09-05,Mike Greenwell_BOS
+11,1987,29.0,BAL,AL,34.0,85.0,76.0,7.0,12.0,1.0,0.158,4.0,26.0,2.0,0.0,12.0,6.0,19.0,Outfielder,Mike Hart,1984-05-08,Mike Hart_BAL
+2,1987,23.0,CLE,AL,67.0,280.0,257.0,31.0,68.0,9.0,0.265,3.0,92.0,9.0,3.0,21.0,10.0,47.0,Second Baseman,Tommy Hinzo,1987-07-16,Tommy Hinzo_CLE
+6,1987,23.0,BOS,AL,46.0,177.0,158.0,31.0,44.0,0.0,0.278,14.0,93.0,7.0,0.0,34.0,17.0,55.0,Designated Hitter and Pinch Hitter,Sam Horn,1987-07-25,Sam Horn_BOS
+2,1987,24.0,KCR,AL,116.0,434.0,396.0,46.0,93.0,10.0,0.235,22.0,180.0,17.0,2.0,53.0,30.0,158.0,Leftfielder,Bo Jackson,1986-09-02,Bo Jackson_KCR
+7,1987,24.0,PHI,NL,115.0,391.0,358.0,48.0,105.0,3.0,0.293,17.0,188.0,20.0,6.0,54.0,27.0,67.0,Outfielder and Third Baseman,Chris James,1986-04-23,Chris James_PHI
+10,1987,23.0,OAK,AL,81.0,176.0,151.0,22.0,28.0,3.0,0.185,2.0,39.0,3.0,1.0,9.0,19.0,33.0,Outfielder,Stan Javier,1984-04-15,Stan Javier_OAK
+5,1987,24.0,SDP,NL,116.0,469.0,422.0,59.0,97.0,34.0,0.23,8.0,143.0,8.0,7.0,29.0,39.0,92.0,Outfielder,Stan Jefferson,1986-09-07,Stan Jefferson_SDP
+11,1987,27.0,KCR,AL,39.0,124.0,114.0,10.0,29.0,1.0,0.254,0.0,37.0,4.0,2.0,10.0,5.0,15.0,"Shortstop, Second Baseman and Third Baseman",Ross Jones,1984-04-02,Ross Jones_KCR
+4,1987,26.0,CIN,NL,117.0,390.0,359.0,53.0,104.0,31.0,0.29,10.0,157.0,17.0,3.0,44.0,23.0,40.0,Outfielder and Pinch Hitter,Tracy Jones,1986-04-07,Tracy Jones_CIN
+7,1987,23.0,CHW,AL,39.0,95.0,85.0,7.0,6.0,3.0,0.071,2.0,12.0,0.0,0.0,7.0,7.0,40.0,Catcher,Ron Karkovice,1986-08-17,Ron Karkovice_CHW
+10,1987,26.0,MIL,AL,28.0,110.0,99.0,17.0,20.0,0.0,0.20199999999999999,5.0,39.0,4.0,0.0,17.0,7.0,28.0,"Third Baseman, Shortstop and Second Baseman",Steve Kiefer,1984-09-03,Steve Kiefer_MIL
+4,1987,24.0,MIN,AL,85.0,262.0,233.0,23.0,62.0,1.0,0.266,4.0,89.0,11.0,2.0,28.0,25.0,31.0,"First Baseman, Designated Hitter and Rightfielder",Gene Larkin,1987-05-21,Gene Larkin_MIN
+7,1987,22.0,TOR,AL,56.0,129.0,121.0,14.0,31.0,2.0,0.256,1.0,42.0,2.0,3.0,11.0,6.0,13.0,Shortstop and Second Baseman,Manuel Lee,1985-04-10,Manuel Lee_TOR
+5,1987,23.0,PIT,NL,35.0,157.0,143.0,21.0,46.0,2.0,0.322,0.0,62.0,8.0,4.0,11.0,8.0,12.0,Second Baseman,Jose Lind,1987-08-28,Jose Lind_PIT
+6,1987,25.0,STL,NL,75.0,227.0,207.0,20.0,43.0,3.0,0.20800000000000002,8.0,80.0,13.0,0.0,28.0,11.0,56.0,"Outfielder, Pinch Hitter and First Baseman",Jim Lindeman,1986-09-03,Jim Lindeman_STL
+7,1987,27.0,CHW,AL,9.0,19.0,16.0,2.0,3.0,0.0,0.188,0.0,3.0,0.0,0.0,1.0,0.0,3.0,Catcher,Bill Lindsey,1987-07-18,Bill Lindsey_CHW
+5,1987,23.0,TOR,AL,37.0,176.0,158.0,29.0,38.0,13.0,0.24100000000000002,2.0,54.0,6.0,2.0,10.0,16.0,22.0,"Second Baseman, Pinch Hitter and Shortstop",Nelson Liriano,1987-08-25,Nelson Liriano_TOR
+6,1987,27.0,NYM,NL,53.0,143.0,130.0,15.0,33.0,0.0,0.254,4.0,51.0,4.0,1.0,24.0,8.0,24.0,Catcher,Barry Lyons,1986-04-19,Barry Lyons_NYM
+3,1987,23.0,SDP,NL,105.0,267.0,238.0,28.0,57.0,4.0,0.239,4.0,86.0,11.0,3.0,25.0,18.0,47.0,Outfielder,Shane Mack,1987-05-25,Shane Mack_SDP
+5,1987,24.0,NYM,NL,85.0,216.0,192.0,21.0,61.0,0.0,0.318,3.0,85.0,13.0,1.0,24.0,22.0,22.0,"Third Baseman, First Baseman and Pinch Hitter",Dave Magadan,1986-09-07,Dave Magadan_NYM
+13,1987,25.0,CHW,AL,115.0,330.0,298.0,30.0,77.0,5.0,0.258,4.0,108.0,13.0,3.0,29.0,19.0,69.0,Second Baseman and Shortstop,Fred Manrique,1981-08-23,Fred Manrique_CHW
+5,1987,22.0,CHC,NL,142.0,520.0,459.0,70.0,134.0,16.0,0.292,8.0,192.0,18.0,8.0,36.0,57.0,96.0,Outfielder and First Baseman,Dave Martinez,1986-06-15,Dave Martinez_CHC
+3,1987,24.0,BOS,AL,52.0,182.0,168.0,20.0,41.0,0.0,0.244,5.0,67.0,11.0,0.0,24.0,7.0,41.0,Catcher,John Marzano,1987-07-31,John Marzano_BOS
+7,1987,23.0,TOR,AL,107.0,356.0,295.0,58.0,73.0,3.0,0.247,20.0,149.0,16.0,0.0,43.0,60.0,104.0,First Baseman,Fred McGriff,1986-05-17,Fred McGriff_TOR
+4,1987,23.0,OAK,AL,151.0,641.0,557.0,97.0,161.0,1.0,0.289,49.0,344.0,28.0,4.0,118.0,71.0,131.0,First Baseman,Mark McGwire,1986-08-22,Mark McGwire_OAK
+6,1987,22.0,CAL,AL,138.0,499.0,433.0,61.0,102.0,25.0,0.23600000000000002,3.0,130.0,13.0,3.0,41.0,48.0,72.0,"Second Baseman, Outfielder and Third Baseman",Mark McLemore,1986-09-13,Mark McLemore_CAL
+7,1987,26.0,STL,NL,101.0,170.0,157.0,22.0,41.0,5.0,0.261,3.0,64.0,6.0,4.0,23.0,11.0,22.0,Outfielder and Pinch Hitter,John Morris,1986-08-05,John Morris_STL
+6,1987,25.0,SEA,AL,46.0,151.0,132.0,17.0,33.0,21.0,0.25,3.0,46.0,4.0,0.0,12.0,13.0,28.0,Outfielder,Donell Nixon,1987-04-07,Donell Nixon_SEA
+7,1987,27.0,CHC,NL,70.0,192.0,180.0,17.0,41.0,5.0,0.228,3.0,63.0,9.0,2.0,14.0,6.0,49.0,Second Baseman and Shortstop,Paul Noce,1987-06-01,Paul Noce_CHC
+8,1987,23.0,DET,AL,135.0,508.0,461.0,69.0,133.0,2.0,0.289,32.0,247.0,14.0,2.0,87.0,35.0,70.0,Catcher,Matt Nokes,1985-09-03,Matt Nokes_DET
+9,1987,24.0,CIN,NL,84.0,178.0,160.0,24.0,41.0,2.0,0.256,7.0,78.0,14.0,1.0,28.0,18.0,29.0,Rightfielder,Paul O'Neill,1985-09-03,Paul O'Neill_CIN
+16,1987,32.0,KCR,AL,76.0,188.0,164.0,17.0,31.0,0.0,0.18899999999999997,5.0,52.0,6.0,0.0,14.0,16.0,51.0,Catcher,Larry Owen,1981-08-14,Larry Owen_KCR
+6,1987,27.0,MIL,AL,48.0,116.0,101.0,16.0,23.0,1.0,0.228,2.0,34.0,5.0,0.0,10.0,12.0,20.0,"First Baseman, Third Baseman and Leftfielder",Jim Paciorek,1987-04-09,Jim Paciorek_MIL
+4,1987,22.0,CHC,NL,84.0,244.0,221.0,32.0,61.0,2.0,0.276,14.0,120.0,15.0,1.0,30.0,20.0,26.0,First Baseman and Leftfielder,Rafael Palmeiro,1986-09-08,Rafael Palmeiro_CHC
+17,1987,33.0,CLE,AL,18.0,25.0,25.0,2.0,4.0,0.0,0.16,1.0,7.0,0.0,0.0,5.0,0.0,5.0,Pinch Hitter and Rightfielder,Casey Parsons,1981-05-31,Casey Parsons_CLE
+8,1987,27.0,KCR,AL,66.0,172.0,156.0,22.0,43.0,5.0,0.276,3.0,59.0,5.0,1.0,14.0,15.0,25.0,"Third Baseman, Shortstop and Second Baseman",Bill Pecota,1986-09-19,Bill Pecota_KCR
+11,1987,26.0,NYM,NL,5.0,7.0,6.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,"Shortstop, Third Baseman and Second Baseman",Al Pedrique,1987-04-14,Al Pedrique_NYM
+12,1987,26.0,PIT,NL,88.0,274.0,246.0,23.0,74.0,5.0,0.301,1.0,89.0,10.0,1.0,27.0,18.0,27.0,"Shortstop, Third Baseman and Second Baseman",Al Pedrique,1987-04-14,Al Pedrique_PIT
+17,1987,27.0,HOU,NL,21.0,49.0,46.0,5.0,7.0,0.0,0.152,0.0,7.0,0.0,0.0,0.0,2.0,7.0,Shortstop and Third Baseman,Bert Pena,1981-09-14,Bert Pena_HOU
+8,1987,25.0,MIN,AL,14.0,13.0,12.0,6.0,4.0,1.0,0.33299999999999996,0.0,4.0,0.0,0.0,0.0,1.0,0.0,"Third Baseman, Second Baseman and Shortstop",Chris Pittaro,1985-04-08,Chris Pittaro_MIN
+8,1987,25.0,CAL,AL,63.0,141.0,137.0,12.0,36.0,0.0,0.263,2.0,45.0,3.0,0.0,15.0,2.0,15.0,"Shortstop, Third Baseman and Second Baseman",Gus Polidor,1985-09-07,Gus Polidor_CAL
+4,1987,23.0,OAK,AL,125.0,469.0,435.0,78.0,125.0,29.0,0.287,4.0,173.0,16.0,10.0,49.0,32.0,64.0,Leftfielder,Luis Polonia,1987-04-24,Luis Polonia_OAK
+6,1987,22.0,BAL,AL,58.0,257.0,234.0,27.0,72.0,4.0,0.308,2.0,87.0,9.0,0.0,20.0,21.0,23.0,"Second Baseman, Shortstop and Third Baseman",Billy Ripken,1987-07-11,Billy Ripken_BAL
+14,1987,26.0,CAL,AL,58.0,104.0,100.0,7.0,20.0,0.0,0.2,5.0,41.0,6.0,0.0,18.0,3.0,15.0,"Pinch Hitter, Outfielder and First Baseman",Mark Ryal,1982-09-07,Mark Ryal_CAL
+5,1987,22.0,SDP,NL,146.0,572.0,546.0,64.0,164.0,21.0,0.3,18.0,255.0,33.0,2.0,79.0,16.0,112.0,Catcher,Benito Santiago,1986-09-14,Benito Santiago_SDP
+15,1987,28.0,BOS,AL,2.0,3.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,Catcher and Outfielder,Dave Sax,1982-09-01,Dave Sax_BOS
+5,1987,25.0,KCR,AL,161.0,725.0,641.0,105.0,207.0,12.0,0.32299999999999995,15.0,301.0,33.0,8.0,83.0,80.0,85.0,Third Baseman and First Baseman,Kevin Seitzer,1986-09-03,Kevin Seitzer_KCR
+14,1987,30.0,MON,NL,6.0,11.0,9.0,0.0,2.0,1.0,0.222,0.0,2.0,0.0,0.0,0.0,1.0,0.0,Pinch Hitter and First Baseman,Razor Shines,1983-09-09,Razor Shines_MON
+15,1987,27.0,OAK,AL,6.0,3.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,Catcher,Matt Sinatro,1981-09-22,Matt Sinatro_OAK
+4,1987,24.0,TEX,AL,78.0,253.0,216.0,34.0,59.0,3.0,0.273,6.0,87.0,8.0,1.0,37.0,31.0,48.0,Catcher and First Baseman,Mike Stanley,1986-06-24,Mike Stanley_TEX
+5,1987,25.0,OAK,AL,122.0,438.0,391.0,66.0,111.0,1.0,0.284,16.0,181.0,16.0,3.0,56.0,32.0,66.0,Catcher and First Baseman,Terry Steinbach,1986-09-12,Terry Steinbach_OAK
+2,1987,22.0,MIL,AL,115.0,445.0,395.0,50.0,118.0,11.0,0.299,7.0,167.0,22.0,3.0,68.0,36.0,30.0,"Leftfielder, Catcher and Third Baseman",B.J. Surhoff,1987-04-08,B.J. Surhoff_MIL
+15,1987,30.0,HOU,NL,11.0,6.0,6.0,1.0,1.0,0.0,0.16699999999999998,0.0,2.0,1.0,0.0,0.0,0.0,3.0,"Third Baseman, Centerfielder and Second Baseman",Ty Waller,1980-09-06,Ty Waller_HOU
+8,1987,24.0,CAL,AL,159.0,696.0,639.0,103.0,168.0,32.0,0.263,24.0,283.0,33.0,5.0,87.0,39.0,135.0,Centerfielder,Devon White,1985-09-02,Devon White_CAL
+7,1987,23.0,CHW,AL,116.0,414.0,391.0,48.0,110.0,21.0,0.281,11.0,165.0,18.0,2.0,50.0,10.0,83.0,Outfielder and Third Baseman,Ken Williams,1986-09-02,Ken Williams_CHW
+2,1987,21.0,SFG,NL,84.0,266.0,245.0,28.0,46.0,4.0,0.188,8.0,83.0,9.0,2.0,21.0,16.0,68.0,Third Baseman and Shortstop,Matt Williams,1987-04-11,Matt Williams_SFG
+6,1987,24.0,HOU,NL,14.0,31.0,29.0,1.0,3.0,0.0,0.10300000000000001,0.0,4.0,1.0,0.0,0.0,1.0,10.0,Catcher,Robbie Wine,1986-09-02,Robbie Wine_HOU
+4,1987,24.0,LAD,NL,53.0,148.0,136.0,14.0,31.0,1.0,0.228,1.0,44.0,8.0,1.0,11.0,9.0,21.0,Third Baseman and First Baseman,Tracy Woodson,1987-04-07,Tracy Woodson_LAD
+6,1987,22.0,HOU,NL,71.0,303.0,274.0,44.0,88.0,26.0,0.321,1.0,104.0,9.0,2.0,15.0,26.0,27.0,Centerfielder,Gerald Young,1987-07-08,Gerald Young_HOU
+3,1988,22.0,STL,NL,93.0,330.0,297.0,20.0,63.0,1.0,0.212,1.0,84.0,10.0,4.0,24.0,25.0,32.0,Second Baseman and Third Baseman,Luis Alicea,1988-04-23,Luis Alicea_STL
+15,1988,28.0,CLE,AL,5.0,11.0,11.0,1.0,1.0,0.0,0.091,0.0,2.0,1.0,0.0,0.0,0.0,2.0,"Designated Hitter, Pinch Hitter and Outfielder",Rod Allen,1983-04-07,Rod Allen_CLE
+4,1988,20.0,SDP,NL,143.0,611.0,545.0,84.0,145.0,24.0,0.266,9.0,208.0,24.0,6.0,41.0,47.0,83.0,Second Baseman,Roberto Alomar,1988-04-22,Roberto Alomar_SDP
+5,1988,24.0,BOS,AL,41.0,172.0,148.0,14.0,34.0,4.0,0.23,0.0,45.0,5.0,3.0,12.0,15.0,35.0,Outfielder,Brady Anderson,1988-04-04,Brady Anderson_BOS
+6,1988,24.0,BAL,AL,53.0,192.0,177.0,17.0,35.0,6.0,0.198,1.0,48.0,8.0,1.0,9.0,8.0,40.0,Outfielder,Brady Anderson,1988-04-04,Brady Anderson_BAL
+6,1988,24.0,CHC,NL,95.0,332.0,309.0,19.0,80.0,1.0,0.259,7.0,122.0,19.0,1.0,38.0,17.0,56.0,Catcher,Damon Berryhill,1987-09-05,Damon Berryhill_CHC
+10,1988,28.0,ATL,NL,66.0,210.0,198.0,13.0,42.0,1.0,0.212,2.0,56.0,4.0,2.0,10.0,10.0,20.0,Centerfielder and Pinch Hitter,Terry Blocker,1985-04-11,Terry Blocker_ATL
+9,1988,27.0,SFG,NL,20.0,6.0,6.0,0.0,1.0,0.0,0.16699999999999998,0.0,1.0,0.0,0.0,0.0,0.0,2.0,Pitcher and Outfielder,Randy Bockus,1986-09-10,Randy Bockus_SFG
+7,1988,25.0,TOR,AL,56.0,160.0,154.0,15.0,42.0,0.0,0.273,5.0,69.0,6.0,3.0,21.0,3.0,24.0,Catcher,Pat Borders,1988-04-06,Pat Borders_TOR
+7,1988,23.0,NYY,AL,25.0,76.0,69.0,8.0,13.0,0.0,0.188,3.0,22.0,0.0,0.0,13.0,3.0,25.0,Rightfielder,Jay Buhner,1987-09-11,Jay Buhner_NYY
+8,1988,23.0,SEA,AL,60.0,223.0,192.0,28.0,43.0,1.0,0.22399999999999998,10.0,88.0,13.0,1.0,25.0,25.0,68.0,Rightfielder,Jay Buhner,1987-09-11,Jay Buhner_SEA
+5,1988,22.0,TOR,AL,73.0,158.0,142.0,14.0,31.0,0.0,0.218,2.0,51.0,10.0,2.0,12.0,9.0,33.0,Outfielder,Sil Campusano,1988-04-04,Sil Campusano_TOR
+11,1988,26.0,PIT,NL,16.0,33.0,29.0,6.0,10.0,0.0,0.345,1.0,18.0,3.0,1.0,6.0,3.0,4.0,"Pinch Hitter, First Baseman and Outfielder",Benny Distefano,1984-05-18,Benny Distefano_PIT
+11,1988,28.0,BOS,AL,17.0,51.0,45.0,5.0,8.0,0.0,0.17800000000000002,1.0,16.0,3.0,1.0,1.0,6.0,17.0,First Baseman,Pat Dodson,1986-09-05,Pat Dodson_BOS
+6,1988,23.0,NYM,NL,149.0,450.0,406.0,41.0,87.0,2.0,0.214,9.0,127.0,11.0,1.0,37.0,35.0,47.0,Shortstop,Kevin Elster,1986-09-02,Kevin Elster_NYM
+11,1988,25.0,TEX,AL,123.0,376.0,347.0,46.0,86.0,33.0,0.248,2.0,121.0,17.0,6.0,39.0,20.0,83.0,Outfielder,Cecil Espy,1983-09-02,Cecil Espy_TEX
+7,1988,24.0,PIT,NL,43.0,100.0,87.0,9.0,24.0,3.0,0.276,0.0,28.0,0.0,2.0,2.0,8.0,10.0,Shortstop and Second Baseman,Felix Fermin,1987-07-08,Felix Fermin_PIT
+10,1988,27.0,CHW,AL,101.0,384.0,347.0,59.0,105.0,5.0,0.303,5.0,141.0,15.0,3.0,31.0,29.0,40.0,Outfielder,Dave Gallagher,1987-04-12,Dave Gallagher_CHW
+7,1988,23.0,ATL,NL,146.0,618.0,563.0,85.0,146.0,19.0,0.259,19.0,247.0,28.0,8.0,60.0,46.0,118.0,"Leftfielder, Second Baseman and Third Baseman",Ron Gant,1987-09-06,Ron Gant_ATL
+10,1988,25.0,CIN,NL,23.0,32.0,28.0,2.0,4.0,0.0,0.14300000000000002,0.0,5.0,1.0,0.0,0.0,4.0,5.0,Pinch Hitter and Centerfielder,Leo Garcia,1987-04-06,Leo Garcia_CIN
+10,1988,27.0,BAL,AL,92.0,260.0,237.0,13.0,51.0,2.0,0.215,2.0,63.0,6.0,0.0,15.0,13.0,32.0,"Third Baseman, Second Baseman and Shortstop",Rene Gonzales,1984-07-27,Rene Gonzales_BAL
+11,1988,23.0,LAD,NL,37.0,26.0,24.0,7.0,2.0,3.0,0.083,0.0,3.0,1.0,0.0,0.0,2.0,10.0,Outfielder,Jose Gonzalez,1985-09-02,Jose Gonzalez_LAD
+3,1988,24.0,CHC,NL,134.0,550.0,486.0,65.0,144.0,3.0,0.29600000000000004,7.0,196.0,23.0,4.0,57.0,60.0,43.0,First Baseman,Mark Grace,1988-05-02,Mark Grace_CHC
+8,1988,26.0,SEA,AL,26.0,62.0,60.0,3.0,10.0,0.0,0.16699999999999998,2.0,17.0,1.0,0.0,7.0,1.0,15.0,"Outfielder, Designated Hitter and Pinch Hitter",Dave Hengel,1986-09-03,Dave Hengel_SEA
+15,1988,27.0,MON,NL,77.0,229.0,216.0,38.0,59.0,29.0,0.273,4.0,89.0,14.0,2.0,14.0,10.0,34.0,"Second Baseman, Outfielder and Shortstop",Rex Hudler,1984-09-09,Rex Hudler_MON
+10,1988,24.0,BAL,AL,41.0,126.0,108.0,10.0,21.0,1.0,0.19399999999999998,2.0,35.0,4.0,2.0,14.0,16.0,27.0,Outfielder and Pinch Hitter,Keith Hughes,1987-05-19,Keith Hughes_BAL
+6,1988,25.0,HOU,NL,46.0,93.0,83.0,7.0,19.0,1.0,0.22899999999999998,1.0,29.0,5.0,1.0,8.0,7.0,16.0,"Third Baseman, Centerfielder and Shortstop",Chuck Jackson,1987-05-26,Chuck Jackson_HOU
+10,1988,24.0,CHC,NL,100.0,197.0,188.0,29.0,50.0,4.0,0.266,6.0,85.0,11.0,3.0,20.0,5.0,28.0,Outfielder,Darrin Jackson,1985-06-17,Darrin Jackson_CHC
+6,1988,24.0,CHW,AL,33.0,132.0,124.0,11.0,23.0,6.0,0.185,0.0,29.0,4.0,1.0,6.0,6.0,11.0,Centerfielder,Lance Johnson,1987-07-10,Lance Johnson_CHW
+6,1988,23.0,PHI,NL,69.0,281.0,273.0,41.0,84.0,1.0,0.308,11.0,134.0,15.0,1.0,43.0,7.0,39.0,First Baseman and Pinch Hitter,Ricky Jordan,1988-07-17,Ricky Jordan_PHI
+5,1988,24.0,KCR,AL,70.0,236.0,211.0,25.0,56.0,0.0,0.265,4.0,83.0,15.0,0.0,26.0,21.0,37.0,Catcher,Mike Macfarlane,1987-07-23,Mike Macfarlane_KCR
+10,1988,29.0,CIN,NL,72.0,157.0,137.0,9.0,30.0,4.0,0.21899999999999997,3.0,43.0,4.0,0.0,14.0,15.0,22.0,"Outfielder, Pinch Hitter and First Baseman",Lloyd McClendon,1987-04-06,Lloyd McClendon_CIN
+9,1988,24.0,CIN,NL,35.0,109.0,96.0,9.0,19.0,1.0,0.198,1.0,25.0,3.0,0.0,4.0,12.0,31.0,Catcher,Terry McGriff,1987-07-11,Terry McGriff_CIN
+4,1988,26.0,MIL,AL,103.0,352.0,327.0,22.0,86.0,0.0,0.263,11.0,137.0,18.0,0.0,45.0,23.0,88.0,Designated Hitter and First Baseman,Joey Meyer,1988-04-04,Joey Meyer_MIL
+10,1988,28.0,MIL,AL,40.0,127.0,118.0,12.0,26.0,0.0,0.22,2.0,38.0,6.0,0.0,9.0,5.0,16.0,Catcher,Charlie O'Brien,1985-06-02,Charlie O'Brien_MIL
+6,1988,25.0,STL,NL,81.0,209.0,195.0,17.0,55.0,0.0,0.282,0.0,64.0,9.0,0.0,15.0,11.0,32.0,Catcher and First Baseman,Tom Pagnozzi,1987-04-12,Tom Pagnozzi_STL
+11,1988,26.0,SDP,NL,41.0,125.0,118.0,9.0,23.0,0.0,0.195,6.0,44.0,3.0,0.0,15.0,6.0,23.0,Catcher,Mark Parent,1986-09-20,Mark Parent_SDP
+5,1988,25.0,BOS,AL,109.0,400.0,338.0,60.0,99.0,1.0,0.293,1.0,127.0,23.0,1.0,28.0,45.0,21.0,Second Baseman and Shortstop,Jody Reed,1987-09-12,Jody Reed_BOS
+10,1988,27.0,BOS,AL,57.0,85.0,78.0,17.0,15.0,2.0,0.192,1.0,22.0,2.0,1.0,6.0,7.0,15.0,Outfielder,Kevin Romine,1985-09-05,Kevin Romine_BOS
+12,1988,27.0,BAL,AL,20.0,30.0,30.0,1.0,3.0,1.0,0.1,0.0,3.0,0.0,0.0,0.0,0.0,6.0,"Third Baseman, Pinch Hitter and Leftfielder",Wade Rowdon,1984-09-08,Wade Rowdon_BAL
+5,1988,26.0,CIN,NL,137.0,582.0,538.0,74.0,146.0,46.0,0.271,11.0,223.0,40.0,2.0,44.0,29.0,52.0,Third Baseman,Chris Sabo,1988-04-04,Chris Sabo_CIN
+8,1988,26.0,MON,NL,92.0,344.0,309.0,26.0,73.0,2.0,0.23600000000000002,8.0,121.0,20.0,2.0,41.0,24.0,77.0,Catcher,Nelson Santovenia,1987-09-16,Nelson Santovenia_MON
+7,1988,25.0,NYM,NL,60.0,131.0,123.0,9.0,35.0,0.0,0.285,1.0,50.0,10.0,1.0,17.0,6.0,9.0,"Catcher, Pinch Hitter and Outfielder",Mackey Sasser,1987-07-17,Mackey Sasser_NYM
+10,1988,28.0,TEX,AL,13.0,25.0,23.0,0.0,3.0,0.0,0.13,0.0,3.0,0.0,0.0,0.0,1.0,8.0,"First Baseman, Pinch Hitter and Catcher",Larry See,1986-09-03,Larry See_TEX
+10,1988,26.0,LAD,NL,46.0,64.0,59.0,8.0,16.0,0.0,0.271,0.0,17.0,1.0,0.0,4.0,1.0,12.0,"Third Baseman, Pinch Hitter and Second Baseman",Mike Sharperson,1987-04-06,Mike Sharperson_LAD
+5,1988,25.0,BAL,AL,83.0,299.0,261.0,29.0,60.0,12.0,0.23,4.0,81.0,7.0,1.0,17.0,28.0,45.0,Leftfielder and Second Baseman,Pete Stanicek,1987-09-01,Pete Stanicek_BAL
+7,1988,23.0,KCR,AL,35.0,70.0,66.0,6.0,11.0,5.0,0.16699999999999998,0.0,12.0,1.0,0.0,2.0,4.0,20.0,Outfielder and Pinch Runner,Gary Thurman,1987-08-30,Gary Thurman_KCR
+14,1988,27.0,SFG,NL,4.0,6.0,4.0,1.0,1.0,0.0,0.25,1.0,4.0,0.0,0.0,3.0,2.0,1.0,Outfielder and Pinch Hitter,Rusty Tillman,1982-06-06,Rusty Tillman_SFG
+5,1988,25.0,CIN,NL,103.0,341.0,301.0,30.0,76.0,2.0,0.252,2.0,109.0,19.0,4.0,23.0,27.0,30.0,Second Baseman and Third Baseman,Jeff Treadway,1987-09-04,Jeff Treadway_CIN
+5,1988,25.0,NYY,AL,48.0,125.0,115.0,18.0,20.0,1.0,0.174,5.0,41.0,6.0,0.0,12.0,8.0,24.0,"Second Baseman, Third Baseman and Shortstop",Randy Velarde,1987-08-20,Randy Velarde_NYY
+7,1988,26.0,DET,AL,88.0,198.0,175.0,23.0,37.0,11.0,0.21100000000000002,0.0,42.0,5.0,0.0,6.0,12.0,26.0,"Second Baseman, Pinch Runner and Third Baseman",Jim Walewander,1987-05-31,Jim Walewander_DET
+9,1988,26.0,SFG,NL,3.0,2.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"Third Baseman, Second Baseman and Shortstop",Mark Wasinger,1986-05-27,Mark Wasinger_SFG
+4,1988,24.0,OAK,AL,147.0,511.0,452.0,44.0,113.0,4.0,0.25,3.0,145.0,17.0,3.0,39.0,35.0,56.0,Shortstop,Walt Weiss,1987-07-12,Walt Weiss_OAK
+8,1989,23.0,SDP,NL,57.0,108.0,102.0,13.0,18.0,1.0,0.17600000000000002,2.0,28.0,4.0,0.0,14.0,5.0,20.0,Outfielder,Shawn Abner,1987-09-08,Shawn Abner_SDP
+15,1989,29.0,PHI,NL,13.0,19.0,19.0,1.0,7.0,0.0,0.368,0.0,8.0,1.0,0.0,0.0,0.0,4.0,Outfielder and First Baseman,Jim Adduci,1983-09-12,Jim Adduci_PHI
+6,1989,25.0,CAL,AL,86.0,248.0,223.0,27.0,51.0,1.0,0.22899999999999998,0.0,59.0,6.0,1.0,17.0,17.0,42.0,"Shortstop, Third Baseman and Second Baseman",Kent Anderson,1989-04-15,Kent Anderson_CAL
+11,1989,28.0,SFG,NL,30.0,33.0,32.0,3.0,9.0,0.0,0.281,0.0,10.0,1.0,0.0,6.0,0.0,7.0,Pinch Hitter and Catcher,Bill Bathe,1986-04-12,Bill Bathe_SFG
+7,1989,25.0,DET,AL,9.0,14.0,11.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,3.0,"Outfielder, Pinch Hitter and First Baseman",Bill Bean,1987-04-25,Bill Bean_DET
+8,1989,25.0,LAD,NL,51.0,76.0,71.0,7.0,14.0,0.0,0.19699999999999998,0.0,18.0,4.0,0.0,3.0,4.0,10.0,"Outfielder, Pinch Hitter and First Baseman",Bill Bean,1987-04-25,Bill Bean_LAD
+3,1989,22.0,CLE,AL,62.0,234.0,218.0,22.0,49.0,2.0,0.225,7.0,86.0,8.0,4.0,37.0,12.0,55.0,Leftfielder,Albert Belle,1989-07-15,Albert Belle_CLE
+5,1989,24.0,ATL,NL,81.0,143.0,136.0,7.0,36.0,0.0,0.265,2.0,46.0,4.0,0.0,9.0,7.0,32.0,Rightfielder and Designated Hitter,Geronimo Berroa,1989-04-05,Geronimo Berroa_ATL
+7,1989,25.0,CAL,AL,48.0,146.0,138.0,13.0,29.0,3.0,0.21,3.0,45.0,7.0,0.0,15.0,6.0,24.0,Outfielder,Dante Bichette,1988-09-05,Dante Bichette_CAL
+3,1989,23.0,HOU,NL,134.0,509.0,443.0,64.0,114.0,21.0,0.257,13.0,178.0,21.0,2.0,60.0,49.0,64.0,"Second Baseman, Catcher and Outfielder",Craig Biggio,1988-06-26,Craig Biggio_HOU
+5,1989,24.0,SEA,AL,115.0,444.0,394.0,52.0,105.0,11.0,0.266,13.0,174.0,22.0,4.0,52.0,39.0,82.0,Outfielder and Pinch Hitter,Greg Briley,1988-06-27,Greg Briley_SEA
+9,1989,26.0,DET,AL,92.0,230.0,212.0,33.0,42.0,8.0,0.198,1.0,54.0,5.0,2.0,11.0,14.0,45.0,"Shortstop, Second Baseman and Third Baseman",Mike Brumley,1987-06-16,Mike Brumley_DET
+11,1989,25.0,NYM,NL,68.0,147.0,133.0,20.0,41.0,2.0,0.308,6.0,65.0,6.0,0.0,16.0,12.0,17.0,"Outfielder, Pinch Hitter and First Baseman",Mark Carreon,1987-09-08,Mark Carreon_NYM
+10,1989,26.0,SEA,AL,54.0,117.0,102.0,13.0,24.0,0.0,0.235,3.0,39.0,4.0,1.0,7.0,14.0,27.0,"Pinch Hitter, Leftfielder and Third Baseman",Dave Cochrane,1986-09-02,Dave Cochrane_SEA
+6,1989,25.0,CHC,NL,47.0,157.0,139.0,20.0,23.0,6.0,0.165,1.0,27.0,1.0,0.0,12.0,13.0,13.0,Outfielder,Doug Dascenzo,1988-09-02,Doug Dascenzo_CHC
+6,1989,26.0,BAL,AL,122.0,434.0,391.0,55.0,104.0,22.0,0.266,8.0,148.0,14.0,3.0,46.0,36.0,60.0,Centerfielder,Mike Devereaux,1987-09-02,Mike Devereaux_BAL
+13,1989,27.0,SEA,AL,52.0,86.0,74.0,9.0,10.0,0.0,0.135,1.0,13.0,0.0,0.0,7.0,7.0,7.0,"Shortstop, Second Baseman and Third Baseman",Mario Diaz,1987-09-12,Mario Diaz_SEA
+8,1989,24.0,TOR,AL,41.0,86.0,76.0,5.0,16.0,2.0,0.21100000000000002,0.0,20.0,4.0,0.0,7.0,9.0,25.0,Outfielder and Pinch Hitter,Rob Ducey,1987-05-01,Rob Ducey_TOR
+10,1989,29.0,CAL,AL,12.0,13.0,12.0,0.0,3.0,0.0,0.25,0.0,3.0,0.0,0.0,2.0,1.0,4.0,"Pinch Hitter, Leftfielder and First Baseman",Jim Eppard,1987-09-08,Jim Eppard_CAL
+15,1989,27.0,NYY,AL,146.0,544.0,503.0,51.0,142.0,3.0,0.282,0.0,167.0,23.0,1.0,41.0,14.0,60.0,"Shortstop, Third Baseman and Second Baseman",Alvaro Espinoza,1984-09-14,Alvaro Espinoza_NYY
+4,1989,21.0,TOR,AL,110.0,454.0,415.0,62.0,107.0,18.0,0.258,9.0,164.0,14.0,8.0,46.0,33.0,101.0,Outfielder,Junior Felix,1989-05-03,Junior Felix_TOR
+15,1989,28.0,SEA,AL,3.0,3.0,3.0,2.0,1.0,0.0,0.33299999999999996,0.0,2.0,1.0,0.0,0.0,0.0,1.0,Leftfielder and Pinch Hitter,Bruce Fields,1986-09-03,Bruce Fields_SEA
+3,1989,24.0,BAL,AL,81.0,241.0,217.0,35.0,54.0,17.0,0.249,2.0,69.0,5.0,2.0,25.0,15.0,30.0,Centerfielder,Steve Finley,1989-04-03,Steve Finley_BAL
+12,1989,27.0,NYY,AL,65.0,225.0,205.0,26.0,59.0,0.0,0.28800000000000003,9.0,93.0,5.0,1.0,27.0,12.0,44.0,Catcher,Bob Geren,1988-05-17,Bob Geren_NYY
+4,1989,24.0,CHC,NL,59.0,172.0,157.0,15.0,39.0,2.0,0.248,1.0,52.0,10.0,0.0,14.0,11.0,26.0,Catcher,Joe Girardi,1989-04-04,Joe Girardi_CHC
+8,1989,25.0,ATL,NL,102.0,298.0,276.0,24.0,67.0,3.0,0.243,6.0,93.0,8.0,0.0,23.0,18.0,45.0,"Pinch Hitter, Outfielder and First Baseman",Tommy Gregg,1987-09-14,Tommy Gregg_ATL
+2,1989,19.0,SEA,AL,127.0,506.0,455.0,61.0,120.0,16.0,0.264,16.0,191.0,23.0,0.0,61.0,44.0,83.0,Centerfielder,Ken Griffey Jr.,1989-04-03,Ken Griffey Jr._SEA
+9,1989,24.0,CIN,NL,61.0,199.0,188.0,17.0,42.0,10.0,0.223,2.0,52.0,4.0,0.0,11.0,9.0,20.0,"Pinch Hitter, Third Baseman and Outfielder",Lenny Harris,1988-09-07,Lenny Harris_CIN
+10,1989,24.0,LAD,NL,54.0,159.0,147.0,19.0,37.0,4.0,0.252,1.0,48.0,6.0,1.0,15.0,11.0,13.0,"Pinch Hitter, Third Baseman and Outfielder",Lenny Harris,1988-09-07,Lenny Harris_LAD
+9,1989,24.0,SFG,NL,3.0,5.0,5.0,0.0,1.0,0.0,0.2,0.0,1.0,0.0,0.0,0.0,0.0,1.0,Third Baseman and First Baseman,Charlie Hayes,1988-09-11,Charlie Hayes_SFG
+10,1989,24.0,PHI,NL,84.0,315.0,299.0,26.0,77.0,3.0,0.258,8.0,118.0,15.0,1.0,43.0,11.0,49.0,Third Baseman and First Baseman,Charlie Hayes,1988-09-11,Charlie Hayes_PHI
+6,1989,21.0,NYM,NL,141.0,559.0,508.0,72.0,131.0,21.0,0.258,12.0,199.0,28.0,2.0,56.0,39.0,46.0,"First Baseman, Leftfielder and Second Baseman",Gregg Jefferies,1987-09-06,Gregg Jefferies_NYM
+5,1989,25.0,PHI,NL,12.0,40.0,31.0,7.0,9.0,1.0,0.29,2.0,15.0,0.0,0.0,4.0,9.0,1.0,Rightfielder and Pinch Hitter,Ron Jones,1988-08-26,Ron Jones_PHI
+15,1989,31.0,CLE,AL,9.0,16.0,14.0,3.0,3.0,0.0,0.214,0.0,5.0,2.0,0.0,1.0,2.0,5.0,"Third Baseman, Leftfielder and First Baseman",Pat Keedy,1985-09-10,Pat Keedy_CLE
+9,1989,24.0,NYY,AL,137.0,498.0,441.0,65.0,133.0,35.0,0.302,9.0,184.0,18.0,3.0,48.0,41.0,89.0,Outfielder,Roberto Kelly,1987-07-29,Roberto Kelly_NYY
+4,1989,24.0,PIT,NL,75.0,243.0,215.0,31.0,42.0,4.0,0.195,5.0,76.0,13.0,3.0,19.0,20.0,34.0,"Third Baseman, First Baseman and Second Baseman",Jeff King,1989-06-02,Jeff King_PIT
+6,1989,24.0,TEX,AL,87.0,192.0,158.0,16.0,24.0,0.0,0.152,5.0,42.0,3.0,0.0,9.0,27.0,40.0,Catcher,Chad Kreuter,1988-09-14,Chad Kreuter_TEX
+6,1989,24.0,SFG,NL,71.0,155.0,143.0,12.0,36.0,0.0,0.252,4.0,59.0,5.0,3.0,17.0,7.0,29.0,"Pinch Hitter, Second Baseman and Outfielder",Greg Litton,1989-05-02,Greg Litton_SFG
+12,1989,26.0,NYM,NL,18.0,53.0,48.0,4.0,11.0,0.0,0.22899999999999998,1.0,15.0,1.0,0.0,3.0,5.0,8.0,"Catcher, Pinch Hitter and Leftfielder",Phil Lombardi,1986-04-26,Phil Lombardi_NYM
+7,1989,24.0,DET,AL,40.0,113.0,103.0,15.0,26.0,3.0,0.252,1.0,33.0,4.0,0.0,8.0,9.0,21.0,Outfielder,Scott Lusader,1987-09-01,Scott Lusader_DET
+14,1989,29.0,CIN,NL,40.0,108.0,98.0,13.0,17.0,0.0,0.17300000000000001,1.0,27.0,7.0,0.0,7.0,8.0,9.0,"Pinch Hitter, Third Baseman and Catcher",Scotti Madison,1985-07-06,Scotti Madison_CIN
+5,1989,23.0,SFG,NL,85.0,223.0,200.0,14.0,42.0,2.0,0.21,0.0,50.0,4.0,2.0,18.0,11.0,28.0,Catcher,Kirt Manwaring,1987-09-15,Kirt Manwaring_SFG
+7,1989,23.0,CHW,AL,109.0,379.0,350.0,44.0,105.0,4.0,0.3,5.0,142.0,22.0,0.0,32.0,21.0,57.0,First Baseman and Third Baseman,Carlos Martinez,1988-09-02,Carlos Martinez_CHW
+9,1989,26.0,SEA,AL,65.0,196.0,171.0,20.0,41.0,2.0,0.24,2.0,52.0,5.0,0.0,20.0,17.0,26.0,Designated Hitter and Third Baseman,Edgar Martinez,1987-09-12,Edgar Martinez_SEA
+6,1989,25.0,SEA,AL,14.0,30.0,28.0,2.0,5.0,0.0,0.179,1.0,8.0,0.0,0.0,4.0,2.0,6.0,Catcher,Bill McGuire,1988-08-02,Bill McGuire_SEA
+6,1989,26.0,CLE,AL,30.0,89.0,83.0,8.0,17.0,0.0,0.205,4.0,30.0,1.0,0.0,8.0,6.0,35.0,"Designated Hitter, First Baseman and Outfielder",Luis Medina,1988-09-02,Luis Medina_CLE
+14,1989,25.0,BAL,AL,9.0,13.0,11.0,1.0,3.0,0.0,0.273,0.0,3.0,0.0,0.0,3.0,1.0,2.0,Pinch Hitter and First Baseman,Francisco Melendez,1984-08-26,Francisco Melendez_BAL
+7,1989,26.0,NYM,NL,57.0,152.0,143.0,15.0,33.0,6.0,0.231,1.0,43.0,7.0,0.0,7.0,5.0,27.0,"Second Baseman, Outfielder and Third Baseman",Keith Miller,1987-06-16,Keith Miller_NYM
+7,1989,26.0,PHI,NL,8.0,10.0,10.0,0.0,3.0,0.0,0.3,0.0,4.0,1.0,0.0,0.0,0.0,3.0,"Pinch Hitter, Outfielder and Third Baseman",Keith Miller,1988-04-23,Keith Miller_PHI
+10,1989,27.0,BAL,AL,124.0,444.0,365.0,56.0,98.0,9.0,0.268,12.0,167.0,23.0,5.0,45.0,74.0,75.0,First Baseman,Randy Milligan,1987-09-12,Randy Milligan_BAL
+12,1989,25.0,SDP,NL,42.0,102.0,82.0,6.0,16.0,1.0,0.195,3.0,27.0,0.0,1.0,7.0,20.0,29.0,First Baseman and Pinch Hitter,Rob Nelson,1986-09-09,Rob Nelson_SDP
+12,1989,24.0,MON,NL,21.0,45.0,44.0,3.0,10.0,0.0,0.22699999999999998,0.0,10.0,0.0,0.0,1.0,1.0,3.0,"Second Baseman, Pinch Hitter and Shortstop",Junior Noboa,1984-08-22,Junior Noboa_MON
+7,1989,23.0,CIN,NL,49.0,161.0,151.0,13.0,41.0,0.0,0.272,3.0,58.0,8.0,0.0,23.0,6.0,28.0,Catcher,Joe Oliver,1989-07-15,Joe Oliver_CIN
+14,1989,26.0,PHI,NL,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Catcher,Al Pardo,1985-07-03,Al Pardo_PHI
+8,1989,26.0,MON,NL,13.0,42.0,41.0,2.0,9.0,0.0,0.22,0.0,12.0,1.0,1.0,3.0,0.0,8.0,Catcher and Rightfielder,Marty Pevey,1989-05-16,Marty Pevey_MON
+8,1989,24.0,PIT,NL,21.0,59.0,52.0,1.0,7.0,1.0,0.135,0.0,11.0,4.0,0.0,5.0,6.0,12.0,Catcher,Tom Prince,1987-09-22,Tom Prince_PIT
+11,1989,27.0,CIN,NL,107.0,334.0,315.0,36.0,83.0,12.0,0.263,7.0,132.0,18.0,5.0,34.0,13.0,100.0,Outfielder,Rolando Roomes,1988-04-12,Rolando Roomes_CIN
+5,1989,20.0,MIL,AL,95.0,405.0,368.0,34.0,91.0,10.0,0.247,5.0,124.0,18.0,0.0,32.0,27.0,33.0,"Rightfielder, Third Baseman and Shortstop",Gary Sheffield,1988-09-03,Gary Sheffield_MIL
+6,1989,25.0,CHC,NL,109.0,381.0,343.0,52.0,111.0,9.0,0.324,9.0,169.0,19.0,6.0,52.0,31.0,51.0,Outfielder and Pinch Hitter,Dwight Smith,1989-05-01,Dwight Smith_CHC
+5,1989,20.0,TEX,AL,25.0,88.0,84.0,8.0,20.0,0.0,0.23800000000000002,1.0,26.0,3.0,0.0,3.0,0.0,20.0,Rightfielder,Sammy Sosa,1989-06-16,Sammy Sosa_TEX
+6,1989,20.0,CHW,AL,33.0,115.0,99.0,19.0,27.0,7.0,0.273,3.0,41.0,5.0,0.0,10.0,11.0,27.0,Rightfielder,Sammy Sosa,1989-06-16,Sammy Sosa_CHW
+3,1989,23.0,MIL,AL,114.0,373.0,345.0,44.0,88.0,10.0,0.255,4.0,115.0,9.0,3.0,33.0,21.0,63.0,"Shortstop, Third Baseman and Second Baseman",Bill Spiers,1989-04-07,Bill Spiers_MIL
+10,1989,28.0,PHI,NL,9.0,9.0,9.0,0.0,1.0,0.0,0.111,0.0,1.0,0.0,0.0,1.0,0.0,3.0,Pinch Hitter,Steve Stanicek,1987-09-16,Steve Stanicek_PHI
+12,1989,28.0,SFG,NL,13.0,14.0,12.0,0.0,1.0,0.0,0.083,0.0,1.0,0.0,0.0,0.0,2.0,4.0,"Pinch Hitter, Outfielder and First Baseman",Jim Steels,1987-04-06,Jim Steels_SFG
+5,1989,25.0,DET,AL,64.0,218.0,196.0,16.0,42.0,3.0,0.214,1.0,51.0,4.0,1.0,14.0,17.0,36.0,Third Baseman and Second Baseman,Doug Strange,1989-07-13,Doug Strange_DET
+9,1989,28.0,CHC,NL,61.0,91.0,87.0,10.0,16.0,3.0,0.184,0.0,24.0,4.0,2.0,6.0,4.0,13.0,Pinch Hitter and Outfielder,Gary Varsho,1988-07-06,Gary Varsho_CHC
+6,1989,22.0,SEA,AL,143.0,431.0,387.0,45.0,85.0,1.0,0.22,1.0,101.0,7.0,3.0,20.0,28.0,40.0,Shortstop and Third Baseman,Omar Vizquel,1989-04-03,Omar Vizquel_SEA
+4,1989,23.0,CHC,NL,116.0,515.0,475.0,64.0,139.0,24.0,0.293,5.0,183.0,23.0,3.0,46.0,27.0,77.0,Centerfielder,Jerome Walton,1989-04-04,Jerome Walton_CHC
+14,1989,29.0,SFG,NL,12.0,20.0,20.0,2.0,4.0,1.0,0.2,0.0,7.0,3.0,0.0,2.0,0.0,7.0,Outfielder and Pinch Runner,Jim Weaver,1985-04-10,Jim Weaver_SFG
+5,1989,25.0,ATL,NL,52.0,55.0,48.0,5.0,10.0,1.0,0.20800000000000002,1.0,17.0,2.0,1.0,7.0,4.0,6.0,Pinch Hitter and Leftfielder,Jeff Wetherby,1989-06-07,Jeff Wetherby_ATL
+4,1989,25.0,ATL,NL,36.0,82.0,74.0,5.0,12.0,1.0,0.162,1.0,18.0,3.0,0.0,4.0,6.0,15.0,Third Baseman and First Baseman,Ed Whited,1989-07-05,Ed Whited_ATL
+10,1989,24.0,CHW,AL,66.0,229.0,201.0,25.0,55.0,1.0,0.27399999999999997,3.0,72.0,8.0,0.0,10.0,18.0,31.0,First Baseman and Third Baseman,Eddie Williams,1986-04-18,Eddie Williams_CHW
+12,1989,29.0,KCR,AL,42.0,122.0,107.0,14.0,25.0,0.0,0.23399999999999999,2.0,37.0,6.0,0.0,9.0,14.0,23.0,Rightfielder,Matt Winters,1989-05-30,Matt Winters_KCR
+5,1989,24.0,BAL,AL,145.0,566.0,497.0,57.0,123.0,1.0,0.247,15.0,191.0,23.0,0.0,70.0,61.0,114.0,Third Baseman,Craig Worthington,1988-04-26,Craig Worthington_BAL
+8,1990,24.0,CLE,AL,132.0,483.0,445.0,60.0,129.0,4.0,0.29,9.0,186.0,26.0,2.0,66.0,25.0,46.0,Catcher,Sandy Alomar,1988-09-30,Sandy Alomar_CLE
+6,1990,22.0,HOU,NL,84.0,277.0,239.0,26.0,46.0,5.0,0.192,10.0,84.0,8.0,0.0,29.0,29.0,78.0,Rightfielder,Eric Anthony,1989-07-28,Eric Anthony_HOU
+7,1990,25.0,NYY,AL,65.0,218.0,214.0,18.0,53.0,7.0,0.248,5.0,76.0,8.0,0.0,19.0,2.0,15.0,Leftfielder and Pinch Hitter,Oscar Azocar,1990-07-17,Oscar Azocar_NYY
+5,1990,21.0,CLE,AL,108.0,338.0,312.0,46.0,81.0,0.0,0.26,7.0,123.0,17.0,2.0,47.0,16.0,57.0,Second Baseman and Third Baseman,Carlos Baerga,1990-04-14,Carlos Baerga_CLE
+8,1990,26.0,MIL,AL,14.0,35.0,29.0,6.0,3.0,4.0,0.10300000000000001,0.0,4.0,1.0,0.0,2.0,4.0,7.0,Second Baseman and Pinch Runner,Billy Bates,1989-08-17,Billy Bates_MIL
+9,1990,26.0,CIN,NL,8.0,5.0,5.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,Second Baseman and Pinch Runner,Billy Bates,1989-08-17,Billy Bates_CIN
+7,1990,26.0,OAK,AL,86.0,162.0,136.0,18.0,26.0,3.0,0.191,0.0,29.0,3.0,0.0,10.0,20.0,23.0,"Outfielder, Second Baseman and Third Baseman",Lance Blankenship,1988-09-04,Lance Blankenship_OAK
+6,1990,25.0,NYY,AL,48.0,157.0,144.0,16.0,27.0,1.0,0.188,5.0,46.0,4.0,0.0,21.0,12.0,50.0,Third Baseman and First Baseman,Mike Blowers,1989-09-01,Mike Blowers_NYY
+13,1990,31.0,PHI,NL,73.0,148.0,131.0,19.0,29.0,3.0,0.221,0.0,38.0,5.0,2.0,10.0,15.0,26.0,"Pinch Hitter, Shortstop and Second Baseman",Rod Booker,1987-04-29,Rod Booker_PHI
+8,1990,27.0,BAL,AL,9.0,16.0,15.0,1.0,3.0,0.0,0.2,0.0,3.0,0.0,0.0,0.0,1.0,7.0,"Third Baseman, Pinch Hitter and Second Baseman",Marty Brown,1988-09-04,Marty Brown_BAL
+8,1990,23.0,ATL,NL,63.0,143.0,137.0,14.0,38.0,1.0,0.27699999999999997,7.0,66.0,5.0,1.0,25.0,5.0,21.0,"Pinch Hitter, First Baseman and Catcher",Francisco Cabrera,1989-07-24,Francisco Cabrera_ATL
+8,1990,26.0,SDP,NL,53.0,107.0,101.0,12.0,27.0,0.0,0.267,5.0,48.0,4.0,1.0,11.0,5.0,24.0,Leftfielder and First Baseman,Jerald Clark,1988-09-19,Jerald Clark_SDP
+6,1990,24.0,CLE,AL,63.0,256.0,227.0,43.0,68.0,40.0,0.3,0.0,81.0,5.0,4.0,13.0,28.0,38.0,Centerfielder,Alex Cole,1990-07-27,Alex Cole_CLE
+5,1990,24.0,TEX,AL,67.0,201.0,180.0,21.0,36.0,1.0,0.2,2.0,48.0,6.0,0.0,13.0,15.0,47.0,Third Baseman,Scott Coolbaugh,1989-09-02,Scott Coolbaugh_TEX
+10,1990,29.0,TEX,AL,125.0,340.0,310.0,36.0,93.0,0.0,0.3,6.0,135.0,20.0,2.0,47.0,22.0,49.0,"Pinch Hitter, Leftfielder and First Baseman",Jack Daugherty,1987-09-01,Jack Daugherty_TEX
+3,1990,21.0,MON,NL,129.0,572.0,499.0,69.0,144.0,42.0,0.289,4.0,196.0,28.0,6.0,45.0,66.0,96.0,Second Baseman and Leftfielder,Delino DeShields,1990-04-09,Delino DeShields_MON
+10,1990,26.0,MIL,AL,86.0,245.0,218.0,27.0,59.0,3.0,0.271,0.0,65.0,2.0,2.0,14.0,21.0,32.0,"Shortstop, Second Baseman and Third Baseman",Edgar Diaz,1986-09-16,Edgar Diaz_MIL
+4,1990,21.0,DET,AL,66.0,251.0,232.0,32.0,69.0,3.0,0.297,9.0,109.0,11.0,1.0,27.0,17.0,51.0,Third Baseman and Shortstop,Travis Fryman,1990-07-07,Travis Fryman_DET
+6,1990,20.0,TEX,AL,25.0,95.0,90.0,11.0,26.0,0.0,0.289,4.0,47.0,7.0,1.0,12.0,2.0,18.0,Outfielder,Juan Gonzalez,1989-09-01,Juan Gonzalez_TEX
+9,1990,28.0,TEX,AL,62.0,99.0,88.0,10.0,19.0,1.0,0.21600000000000003,0.0,22.0,3.0,0.0,8.0,6.0,18.0,Shortstop,Gary Green,1986-09-14,Gary Green_TEX
+4,1990,23.0,MON,NL,98.0,320.0,288.0,42.0,74.0,22.0,0.257,3.0,101.0,14.0,2.0,29.0,27.0,40.0,Centerfielder,Marquis Grissom,1989-08-22,Marquis Grissom_MON
+8,1990,25.0,LAD,NL,101.0,151.0,141.0,19.0,40.0,0.0,0.284,5.0,59.0,2.0,1.0,22.0,7.0,28.0,Pinch Hitter and Outfielder,Chris Gwynn,1987-08-14,Chris Gwynn_LAD
+6,1990,25.0,MIL,AL,89.0,168.0,156.0,27.0,46.0,10.0,0.295,1.0,54.0,5.0,0.0,18.0,9.0,12.0,Outfielder,Darryl Hamilton,1988-06-03,Darryl Hamilton_MIL
+8,1990,25.0,TOR,AL,84.0,278.0,260.0,47.0,60.0,8.0,0.231,12.0,113.0,11.0,3.0,32.0,18.0,62.0,Outfielder,Glenallen Hill,1989-07-31,Glenallen Hill_TOR
+6,1990,25.0,TEX,AL,145.0,454.0,396.0,57.0,95.0,12.0,0.24,0.0,111.0,12.0,2.0,28.0,46.0,54.0,"Shortstop, Second Baseman and Third Baseman",Jeff Huson,1988-09-02,Jeff Huson_TEX
+12,1990,28.0,ATL,NL,20.0,32.0,28.0,3.0,1.0,0.0,0.036000000000000004,0.0,2.0,1.0,0.0,0.0,0.0,7.0,"Pinch Runner, Third Baseman and Shortstop",Alexis Infante,1987-09-27,Alexis Infante_ATL
+9,1990,25.0,OAK,AL,64.0,180.0,156.0,19.0,30.0,0.0,0.192,2.0,47.0,7.0,2.0,14.0,17.0,48.0,"Pinch Hitter, Leftfielder and First Baseman",Doug Jennings,1988-04-08,Doug Jennings_OAK
+6,1990,27.0,STL,NL,67.0,145.0,128.0,9.0,28.0,3.0,0.21899999999999997,1.0,40.0,7.0,1.0,12.0,12.0,20.0,"Shortstop, Second Baseman and Third Baseman",Tim Jones,1988-07-26,Tim Jones_STL
+9,1990,25.0,OAK,AL,101.0,365.0,341.0,42.0,90.0,8.0,0.264,8.0,126.0,12.0,0.0,39.0,16.0,65.0,Rightfielder,Felix Jose,1988-09-02,Felix Jose_OAK
+10,1990,25.0,STL,NL,25.0,93.0,85.0,12.0,23.0,4.0,0.271,3.0,38.0,4.0,1.0,13.0,8.0,16.0,Rightfielder,Felix Jose,1988-09-02,Felix Jose_STL
+7,1990,24.0,ATL,NL,127.0,504.0,439.0,76.0,124.0,11.0,0.282,28.0,235.0,23.0,2.0,78.0,64.0,92.0,Rightfielder and First Baseman,David Justice,1989-05-24,David Justice_ATL
+3,1990,24.0,ATL,NL,29.0,79.0,73.0,7.0,8.0,0.0,0.11,1.0,14.0,1.0,1.0,2.0,6.0,27.0,Catcher,Jimmy Kremers,1990-06-05,Jimmy Kremers_ATL
+18,1990,33.0,BOS,AL,4.0,9.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,3.0,"Pinch Hitter, First Baseman and Outfielder",Rick Lancellotti,1982-08-27,Rick Lancellotti_BOS
+10,1990,24.0,ATL,NL,102.0,266.0,239.0,22.0,54.0,0.0,0.226,0.0,67.0,13.0,0.0,21.0,21.0,22.0,Second Baseman and Third Baseman,Mark Lemke,1988-09-17,Mark Lemke_ATL
+5,1990,26.0,NYY,AL,92.0,339.0,303.0,28.0,78.0,2.0,0.257,5.0,108.0,13.0,1.0,25.0,27.0,51.0,"Catcher, First Baseman and Third Baseman",Jim Leyritz,1990-06-08,Jim Leyritz_NYY
+5,1990,25.0,NYY,AL,79.0,300.0,254.0,42.0,64.0,1.0,0.252,21.0,136.0,9.0,0.0,41.0,43.0,76.0,Designated Hitter and First Baseman,Kevin Maas,1990-06-29,Kevin Maas_NYY
+6,1990,22.0,KCR,AL,46.0,182.0,168.0,21.0,48.0,4.0,0.28600000000000003,2.0,68.0,8.0,3.0,23.0,9.0,29.0,Centerfielder,Brian McRae,1990-08-07,Brian McRae_KCR
+14,1990,29.0,HOU,NL,15.0,16.0,14.0,3.0,2.0,0.0,0.14300000000000002,0.0,2.0,0.0,0.0,0.0,2.0,4.0,Pinch Hitter and Outfielder,Louie Meadows,1986-07-03,Louie Meadows_HOU
+15,1990,29.0,PHI,NL,15.0,15.0,14.0,1.0,1.0,0.0,0.071,0.0,1.0,0.0,0.0,0.0,1.0,2.0,Pinch Hitter and Outfielder,Louie Meadows,1986-07-03,Louie Meadows_PHI
+7,1990,25.0,CIN,NL,107.0,336.0,309.0,50.0,105.0,9.0,0.34,7.0,154.0,22.0,3.0,36.0,21.0,32.0,First Baseman and Leftfielder,Hal Morris,1988-07-29,Hal Morris_CIN
+10,1990,24.0,TOR,AL,87.0,277.0,250.0,33.0,59.0,0.0,0.23600000000000002,5.0,83.0,7.0,1.0,22.0,22.0,33.0,Catcher,Greg Myers,1987-09-12,Greg Myers_TOR
+15,1990,27.0,HOU,NL,32.0,61.0,49.0,7.0,10.0,0.0,0.204,0.0,13.0,3.0,0.0,11.0,8.0,11.0,Catcher and Rightfielder,Carl Nichols,1986-09-14,Carl Nichols_HOU
+1,1990,21.0,TOR,AL,111.0,421.0,358.0,43.0,95.0,0.0,0.265,14.0,154.0,15.0,1.0,48.0,57.0,75.0,First Baseman,John Olerud,1989-09-03,John Olerud_TOR
+10,1990,29.0,ATL,NL,100.0,332.0,298.0,36.0,78.0,1.0,0.262,7.0,113.0,12.0,1.0,36.0,30.0,51.0,Catcher,Greg Olson,1989-06-27,Greg Olson_ATL
+10,1990,27.0,KCR,AL,41.0,61.0,56.0,8.0,13.0,2.0,0.23199999999999998,2.0,22.0,3.0,0.0,9.0,5.0,24.0,"Catcher, Pinch Runner and First Baseman",Rey Palacios,1988-09-08,Rey Palacios_KCR
+7,1990,24.0,BOS,AL,149.0,572.0,512.0,56.0,147.0,1.0,0.287,7.0,196.0,28.0,0.0,67.0,52.0,74.0,First Baseman and Rightfielder,Carlos Quintana,1988-09-16,Carlos Quintana_BOS
+4,1990,22.0,NYY,AL,57.0,149.0,133.0,24.0,21.0,8.0,0.158,3.0,36.0,2.0,2.0,9.0,13.0,27.0,Centerfielder,Deion Sanders,1989-05-31,Deion Sanders_NYY
+4,1990,22.0,SFG,NL,6.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,Pinch Runner and Shortstop,Andres Santana,1990-09-16,Andres Santana_SFG
+6,1990,24.0,MIN,AL,41.0,135.0,121.0,11.0,25.0,1.0,0.207,5.0,46.0,4.0,1.0,13.0,12.0,31.0,First Baseman and Leftfielder,Paul Sorrento,1989-09-08,Paul Sorrento_MIN
+9,1990,25.0,CHW,AL,8.0,18.0,16.0,0.0,4.0,0.0,0.25,0.0,5.0,1.0,0.0,3.0,1.0,6.0,"Designated Hitter, Pinch Hitter and Catcher",Matt Stark,1987-04-08,Matt Stark_CHW
+11,1990,29.0,SDP,NL,103.0,213.0,182.0,26.0,38.0,2.0,0.209,4.0,61.0,9.0,1.0,19.0,30.0,43.0,"Pinch Hitter, First Baseman and Outfielder",Phil Stephenson,1989-04-05,Phil Stephenson_SDP
+5,1990,22.0,CAL,AL,67.0,275.0,248.0,28.0,53.0,1.0,0.214,7.0,84.0,10.0,0.0,32.0,22.0,75.0,First Baseman and Outfielder,Lee Stevens,1990-07-16,Lee Stevens_CAL
+2,1990,22.0,CHW,AL,60.0,240.0,191.0,39.0,63.0,0.0,0.33,7.0,101.0,11.0,3.0,31.0,44.0,54.0,Designated Hitter and First Baseman,Frank Thomas,1990-08-02,Frank Thomas_CHW
+14,1990,27.0,NYM,NL,3.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Outfielder and Pinch Runner,Lou Thornton,1985-04-08,Lou Thornton_NYM
+5,1990,24.0,MIL,AL,120.0,429.0,382.0,51.0,84.0,7.0,0.22,17.0,165.0,26.0,2.0,61.0,33.0,91.0,Leftfielder,Greg Vaughn,1989-08-10,Greg Vaughn_MIL
+2,1990,22.0,CHW,AL,150.0,565.0,493.0,48.0,123.0,1.0,0.249,5.0,157.0,17.0,1.0,54.0,55.0,53.0,Third Baseman and First Baseman,Robin Ventura,1989-09-12,Robin Ventura_CHW
+6,1990,23.0,MON,NL,133.0,478.0,419.0,59.0,101.0,21.0,0.24100000000000002,19.0,182.0,18.0,3.0,51.0,49.0,112.0,Rightfielder and First Baseman,Larry Walker,1989-08-16,Larry Walker_MON
+6,1990,25.0,HOU,NL,142.0,559.0,511.0,69.0,130.0,64.0,0.254,1.0,152.0,9.0,5.0,28.0,39.0,87.0,"Shortstop, Centerfielder and Second Baseman",Eric Yelding,1989-04-09,Eric Yelding_HOU
+5,1990,24.0,STL,NL,144.0,570.0,495.0,62.0,121.0,2.0,0.244,15.0,197.0,25.0,3.0,57.0,67.0,77.0,"Third Baseman, First Baseman and Catcher",Todd Zeile,1989-08-18,Todd Zeile_STL
+7,1991,26.0,CLE,AL,48.0,156.0,125.0,17.0,29.0,2.0,0.23199999999999998,3.0,41.0,3.0,0.0,12.0,25.0,35.0,Outfielder and Pinch Hitter,Beau Allred,1989-09-07,Beau Allred_CLE
+2,1991,23.0,HOU,NL,156.0,650.0,554.0,79.0,163.0,7.0,0.294,15.0,242.0,26.0,4.0,82.0,75.0,116.0,First Baseman,Jeff Bagwell,1991-04-08,Jeff Bagwell_HOU
+3,1991,23.0,MON,NL,57.0,162.0,136.0,16.0,48.0,0.0,0.353,2.0,70.0,12.0,2.0,18.0,20.0,22.0,"Second Baseman, Third Baseman and Shortstop",Bret Barberie,1991-06-16,Bret Barberie_MON
+22,1991,34.0,DET,AL,75.0,171.0,159.0,28.0,46.0,10.0,0.289,5.0,78.0,13.0,2.0,17.0,9.0,24.0,"Pinch Hitter, Third Baseman and Outfielder",Skeeter Barnes,1983-09-06,Skeeter Barnes_DET
+8,1991,23.0,BAL,AL,100.0,223.0,209.0,26.0,36.0,0.0,0.172,1.0,52.0,9.0,2.0,15.0,8.0,51.0,Second Baseman and Shortstop,Juan Bell,1989-09-06,Juan Bell_BAL
+6,1991,23.0,ATL,NL,17.0,32.0,30.0,4.0,4.0,1.0,0.133,1.0,7.0,0.0,0.0,1.0,2.0,7.0,First Baseman and Pinch Hitter,Mike Bell,1990-05-02,Mike Bell_ATL
+7,1991,25.0,SFG,NL,54.0,120.0,106.0,12.0,13.0,3.0,0.12300000000000001,2.0,22.0,3.0,0.0,8.0,7.0,26.0,"Shortstop, Third Baseman and Second Baseman",Mike Benjamin,1989-07-07,Mike Benjamin_SFG
+7,1991,25.0,OAK,AL,90.0,265.0,235.0,21.0,56.0,3.0,0.23800000000000002,0.0,63.0,5.0,1.0,21.0,14.0,37.0,Shortstop and Second Baseman,Mike Bordick,1990-04-11,Mike Bordick_OAK
+16,1991,31.0,MON,NL,73.0,82.0,72.0,6.0,16.0,6.0,0.222,1.0,23.0,4.0,0.0,6.0,9.0,13.0,Pinch Hitter and Outfielder,Eric Bullock,1985-08-26,Eric Bullock_MON
+8,1991,25.0,MIL,AL,21.0,44.0,34.0,6.0,6.0,0.0,0.17600000000000002,3.0,17.0,2.0,0.0,10.0,8.0,6.0,First Baseman,George Canale,1989-09-03,George Canale_MIL
+20,1991,33.0,TEX,AL,2.0,1.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,1.0,0.0,Outfielder and Pinch Runner,Nick Capra,1982-09-06,Nick Capra_TEX
+5,1991,21.0,HOU,NL,67.0,264.0,251.0,27.0,61.0,4.0,0.243,9.0,105.0,13.0,2.0,36.0,9.0,74.0,Shortstop,Andujar Cedeno,1990-09-02,Andujar Cedeno_HOU
+6,1991,25.0,PHI,NL,101.0,417.0,383.0,51.0,92.0,9.0,0.24,13.0,153.0,16.0,3.0,50.0,31.0,73.0,Outfielder,Wes Chamberlain,1990-08-31,Wes Chamberlain_PHI
+6,1991,22.0,DET,AL,154.0,546.0,475.0,77.0,122.0,41.0,0.257,3.0,160.0,15.0,7.0,33.0,52.0,92.0,Centerfielder,Milt Cuyler,1990-09-06,Milt Cuyler_DET
+11,1991,24.0,DET,AL,16.0,32.0,30.0,1.0,5.0,0.0,0.16699999999999998,0.0,7.0,2.0,0.0,0.0,2.0,4.0,"First Baseman, Leftfielder and Third Baseman",Luis de los Santos,1988-09-07,Luis de los Santos_DET
+5,1991,25.0,SFG,NL,79.0,258.0,233.0,11.0,48.0,0.0,0.20600000000000002,5.0,72.0,7.0,1.0,24.0,16.0,44.0,Catcher and First Baseman,Steve Decker,1990-09-18,Steve Decker_SFG
+6,1991,26.0,SDP,NL,57.0,149.0,130.0,13.0,23.0,3.0,0.177,0.0,28.0,3.0,1.0,7.0,14.0,21.0,"Second Baseman, Shortstop and Third Baseman",Paul Faries,1990-09-06,Paul Faries_SDP
+9,1991,24.0,PHI,NL,46.0,142.0,136.0,5.0,31.0,0.0,0.228,1.0,42.0,8.0,0.0,12.0,5.0,15.0,Catcher,Darrin Fletcher,1989-09-10,Darrin Fletcher_PHI
+8,1991,24.0,STL,NL,81.0,311.0,268.0,28.0,58.0,14.0,0.21600000000000003,5.0,84.0,7.0,2.0,20.0,39.0,33.0,Leftfielder,Bernard Gilkey,1990-09-04,Bernard Gilkey_STL
+7,1991,25.0,BAL,AL,118.0,445.0,391.0,40.0,91.0,1.0,0.233,16.0,160.0,17.0,2.0,45.0,40.0,82.0,Third Baseman,Leo Gomez,1990-09-17,Leo Gomez_BAL
+4,1991,23.0,HOU,NL,137.0,526.0,473.0,51.0,120.0,10.0,0.254,13.0,205.0,28.0,9.0,69.0,40.0,101.0,Leftfielder,Luis Gonzalez,1990-09-04,Luis Gonzalez_HOU
+5,1991,26.0,CHW,AL,107.0,268.0,224.0,37.0,63.0,1.0,0.281,6.0,103.0,16.0,3.0,31.0,38.0,40.0,"Second Baseman, Shortstop and Third Baseman",Craig Grebeck,1990-04-13,Craig Grebeck_CHW
+7,1991,26.0,BAL,AL,107.0,372.0,341.0,36.0,83.0,0.0,0.243,11.0,131.0,15.0,0.0,31.0,29.0,61.0,Catcher,Chris Hoiles,1989-04-25,Chris Hoiles_BAL
+5,1991,25.0,PHI,NL,56.0,172.0,151.0,18.0,45.0,1.0,0.298,6.0,77.0,10.0,2.0,21.0,17.0,26.0,Third Baseman and First Baseman,Dave Hollins,1990-04-12,Dave Hollins_PHI
+5,1991,24.0,KCR,AL,94.0,264.0,236.0,20.0,51.0,3.0,0.21600000000000003,1.0,61.0,7.0,0.0,17.0,16.0,45.0,"Shortstop, Second Baseman and Outfielder",David Howard,1991-04-14,David Howard_KCR
+7,1991,26.0,SDP,NL,106.0,309.0,281.0,30.0,70.0,10.0,0.249,4.0,100.0,12.0,3.0,22.0,24.0,57.0,Outfielder and Pinch Hitter,Thomas Howard,1990-07-03,Thomas Howard_SDP
+9,1991,27.0,CLE,AL,51.0,179.0,146.0,28.0,35.0,11.0,0.24,2.0,49.0,6.0,1.0,10.0,25.0,30.0,Outfielder,Mike Huff,1989-08-07,Mike Huff_CLE
+10,1991,27.0,CHW,AL,51.0,116.0,97.0,14.0,26.0,3.0,0.268,1.0,35.0,4.0,1.0,15.0,12.0,18.0,Outfielder,Mike Huff,1989-08-07,Mike Huff_CHW
+5,1991,23.0,ATL,NL,97.0,291.0,271.0,32.0,68.0,0.0,0.251,12.0,122.0,16.0,1.0,50.0,17.0,48.0,"First Baseman, Pinch Hitter and Leftfielder",Brian Hunter,1991-05-31,Brian Hunter_ATL
+4,1991,23.0,NYY,AL,96.0,322.0,298.0,35.0,72.0,12.0,0.242,3.0,101.0,12.0,4.0,23.0,15.0,52.0,Second Baseman and Third Baseman,Pat Kelly,1991-05-20,Pat Kelly_NYY
+2,1991,22.0,MIN,AL,151.0,636.0,565.0,78.0,159.0,25.0,0.281,1.0,198.0,24.0,6.0,50.0,59.0,40.0,Second Baseman and Leftfielder,Chuck Knoblauch,1991-04-09,Chuck Knoblauch_MIN
+5,1991,24.0,STL,NL,151.0,615.0,566.0,83.0,142.0,44.0,0.251,9.0,222.0,23.0,15.0,69.0,41.0,114.0,Centerfielder,Ray Lankford,1990-08-21,Ray Lankford_STL
+6,1991,25.0,MIN,AL,109.0,235.0,199.0,35.0,57.0,5.0,0.28600000000000003,5.0,83.0,7.0,2.0,20.0,30.0,35.0,"Third Baseman, Shortstop and First Baseman",Scott Leius,1990-09-03,Scott Leius_MIN
+7,1991,26.0,SFG,NL,64.0,145.0,129.0,14.0,31.0,0.0,0.24,2.0,46.0,7.0,1.0,14.0,12.0,25.0,Leftfielder and Pinch Hitter,Mark Leonard,1990-07-21,Mark Leonard_SFG
+5,1991,23.0,SFG,NL,72.0,267.0,222.0,41.0,55.0,13.0,0.248,1.0,69.0,5.0,3.0,15.0,36.0,30.0,Centerfielder,Darren Lewis,1990-08-21,Darren Lewis_SFG
+4,1991,21.0,CLE,AL,84.0,336.0,314.0,29.0,83.0,2.0,0.264,0.0,100.0,15.0,1.0,30.0,15.0,45.0,"Second Baseman, Third Baseman and Shortstop",Mark Lewis,1991-04-26,Mark Lewis_CLE
+9,1991,26.0,CLE,AL,35.0,89.0,82.0,7.0,18.0,0.0,0.22,0.0,24.0,4.0,1.0,7.0,4.0,7.0,"Pinch Hitter, Catcher and First Baseman",Luis Lopez,1990-09-14,Luis Lopez_CLE
+8,1991,25.0,NYY,AL,22.0,59.0,51.0,0.0,9.0,0.0,0.17600000000000002,0.0,11.0,2.0,0.0,2.0,5.0,7.0,"Second Baseman, First Baseman and Third Baseman",Torey Lovullo,1988-09-10,Torey Lovullo_NYY
+8,1991,26.0,CLE,AL,47.0,148.0,128.0,15.0,27.0,2.0,0.21100000000000002,2.0,40.0,7.0,0.0,13.0,14.0,22.0,Third Baseman and First Baseman,Jeff Manto,1990-06-07,Jeff Manto_CLE
+8,1991,25.0,BAL,AL,67.0,228.0,216.0,32.0,58.0,1.0,0.26899999999999996,13.0,111.0,12.0,1.0,33.0,11.0,51.0,Rightfielder and Pinch Hitter,Chito Martinez,1991-07-05,Chito Martinez_BAL
+4,1991,23.0,SEA,AL,36.0,125.0,112.0,11.0,23.0,0.0,0.205,4.0,37.0,2.0,0.0,9.0,11.0,24.0,First Baseman,Tino Martinez,1990-08-20,Tino Martinez_SEA
+3,1991,23.0,KCR,AL,85.0,259.0,231.0,22.0,58.0,2.0,0.251,3.0,75.0,8.0,0.0,31.0,23.0,42.0,Catcher,Brent Mayne,1990-09-18,Brent Mayne_KCR
+8,1991,24.0,PIT,NL,120.0,478.0,411.0,83.0,113.0,8.0,0.275,10.0,164.0,17.0,2.0,50.0,64.0,81.0,"Rightfielder, First Baseman and Pinch Hitter",Orlando Merced,1990-06-27,Orlando Merced_PIT
+8,1991,25.0,CHW,AL,80.0,154.0,140.0,8.0,32.0,0.0,0.22899999999999998,5.0,48.0,1.0,0.0,21.0,9.0,18.0,"Catcher, Pinch Hitter and First Baseman",Matt Merullo,1989-04-12,Matt Merullo_CHW
+7,1991,24.0,NYY,AL,96.0,313.0,288.0,37.0,64.0,3.0,0.222,6.0,92.0,8.0,1.0,29.0,18.0,97.0,"Leftfielder, First Baseman and Third Baseman",Hensley Meulens,1989-08-23,Hensley Meulens_NYY
+4,1991,25.0,PHI,NL,98.0,364.0,325.0,38.0,81.0,13.0,0.249,1.0,103.0,11.0,4.0,20.0,29.0,45.0,Second Baseman,Mickey Morandini,1990-09-01,Mickey Morandini_PHI
+8,1991,22.0,MIN,AL,51.0,151.0,138.0,15.0,39.0,3.0,0.28300000000000003,7.0,69.0,7.0,1.0,26.0,9.0,31.0,Outfielder,Pedro Munoz,1990-09-01,Pedro Munoz_MIN
+4,1991,24.0,BOS,AL,20.0,65.0,55.0,1.0,6.0,0.0,0.109,0.0,7.0,1.0,0.0,3.0,6.0,15.0,"Third Baseman, Second Baseman and Shortstop",Tim Naehring,1990-07-15,Tim Naehring_BOS
+6,1991,26.0,CHW,AL,71.0,160.0,132.0,20.0,39.0,2.0,0.295,4.0,56.0,5.0,0.0,25.0,28.0,34.0,Outfielder and Pinch Hitter,Warren Newson,1991-05-29,Warren Newson_CHW
+5,1991,22.0,LAD,NL,52.0,140.0,113.0,10.0,22.0,3.0,0.195,0.0,24.0,2.0,0.0,3.0,25.0,32.0,"Shortstop, Second Baseman and First Baseman",Jose Offerman,1990-08-19,Jose Offerman_LAD
+10,1991,28.0,HOU,NL,47.0,97.0,83.0,7.0,23.0,0.0,0.27699999999999997,1.0,32.0,4.0,1.0,5.0,14.0,14.0,Outfielder and Pinch Hitter,Javier Ortiz,1990-06-15,Javier Ortiz_HOU
+7,1991,25.0,CAL,AL,29.0,84.0,69.0,7.0,14.0,0.0,0.203,0.0,18.0,4.0,0.0,3.0,10.0,17.0,Catcher,John Orton,1989-08-20,John Orton_CAL
+8,1991,22.0,TEX,AL,81.0,304.0,268.0,38.0,50.0,0.0,0.187,15.0,108.0,9.0,2.0,37.0,32.0,98.0,Third Baseman,Dean Palmer,1989-09-01,Dean Palmer_TEX
+14,1991,28.0,DET,AL,16.0,18.0,18.0,4.0,6.0,1.0,0.33299999999999996,0.0,6.0,0.0,0.0,0.0,0.0,1.0,Second Baseman and Pinch Runner,Johnny Paredes,1988-04-29,Johnny Paredes_DET
+6,1991,24.0,STL,NL,104.0,212.0,185.0,38.0,45.0,15.0,0.243,5.0,74.0,8.0,3.0,17.0,18.0,45.0,Second Baseman,Geronimo Pena,1990-09-05,Geronimo Pena_STL
+6,1991,22.0,BOS,AL,53.0,175.0,148.0,27.0,49.0,1.0,0.331,11.0,91.0,7.0,1.0,35.0,23.0,38.0,Leftfielder,Phil Plantier,1990-08-21,Phil Plantier_BOS
+11,1991,26.0,SEA,AL,57.0,125.0,111.0,16.0,24.0,0.0,0.21600000000000003,3.0,41.0,6.0,1.0,12.0,11.0,24.0,"Outfielder, Pinch Hitter and First Baseman",Alonzo Powell,1987-04-06,Alonzo Powell_SEA
+6,1991,25.0,NYY,AL,10.0,29.0,26.0,4.0,8.0,0.0,0.308,0.0,9.0,1.0,0.0,3.0,1.0,3.0,Catcher and Designated Hitter,John Ramos,1991-09-18,John Ramos_NYY
+9,1991,27.0,TEX,AL,136.0,440.0,394.0,46.0,106.0,0.0,0.26899999999999996,20.0,188.0,22.0,0.0,69.0,33.0,93.0,Leftfielder and Designated Hitter,Kevin Reimer,1988-09-13,Kevin Reimer_TEX
+19,1991,27.0,MON,NL,83.0,229.0,207.0,11.0,45.0,2.0,0.217,0.0,54.0,9.0,0.0,13.0,19.0,51.0,Catcher,Gil Reyes,1983-06-11,Gil Reyes_MON
+7,1991,22.0,HOU,NL,44.0,152.0,136.0,7.0,29.0,2.0,0.213,1.0,37.0,3.0,1.0,12.0,14.0,26.0,Outfielder,Tuffy Rhodes,1990-08-07,Tuffy Rhodes_HOU
+3,1991,19.0,TEX,AL,88.0,288.0,280.0,24.0,74.0,0.0,0.264,3.0,99.0,16.0,0.0,27.0,5.0,42.0,Catcher,Ivan Rodriguez,1991-06-20,Ivan Rodriguez_TEX
+7,1991,27.0,HOU,NL,29.0,48.0,41.0,3.0,5.0,0.0,0.122,0.0,5.0,0.0,0.0,0.0,5.0,8.0,"Pinch Hitter, Second Baseman and Third Baseman",Dave Rohde,1990-04-09,Dave Rohde_HOU
+12,1991,31.0,SEA,AL,84.0,175.0,164.0,19.0,41.0,3.0,0.25,1.0,53.0,7.0,1.0,11.0,5.0,25.0,"Shortstop, Third Baseman and Second Baseman",Jeff Schaefer,1989-04-07,Jeff Schaefer_SEA
+11,1991,30.0,PIT,NL,3.0,3.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,Outfielder and Pinch Hitter,Jeff Schulz,1989-09-02,Jeff Schulz_PIT
+5,1991,24.0,BAL,AL,86.0,228.0,212.0,15.0,59.0,1.0,0.278,2.0,72.0,7.0,0.0,22.0,12.0,19.0,First Baseman and Leftfielder,David Segui,1990-05-08,David Segui_BAL
+13,1991,28.0,SDP,NL,37.0,95.0,91.0,6.0,25.0,0.0,0.275,1.0,31.0,3.0,0.0,6.0,2.0,14.0,"Third Baseman, Shortstop and Second Baseman",Craig Shipley,1986-06-22,Craig Shipley_SDP
+5,1991,24.0,KCR,AL,144.0,418.0,369.0,45.0,80.0,17.0,0.217,5.0,119.0,16.0,4.0,34.0,30.0,75.0,"Second Baseman, Pinch Hitter and Leftfielder",Terry Shumpert,1990-05-01,Terry Shumpert_KCR
+8,1991,24.0,HOU,NL,49.0,143.0,123.0,18.0,25.0,1.0,0.203,3.0,39.0,5.0,0.0,16.0,18.0,38.0,"Rightfielder, Pinch Hitter and First Baseman",Mike Simms,1990-09-05,Mike Simms_HOU
+9,1991,24.0,LAD,NL,5.0,4.0,3.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,"Second Baseman, Pinch Hitter and Shortstop",Greg Smith,1989-09-02,Greg Smith_LAD
+5,1991,26.0,CAL,AL,113.0,402.0,364.0,38.0,94.0,4.0,0.258,3.0,119.0,14.0,1.0,20.0,14.0,26.0,"Second Baseman, Shortstop and Third Baseman",Luis Sojo,1990-07-14,Luis Sojo_CAL
+3,1991,23.0,TOR,AL,61.0,183.0,160.0,17.0,44.0,0.0,0.275,4.0,63.0,7.0,0.0,20.0,19.0,43.0,Third Baseman and First Baseman,Ed Sprague,1991-05-07,Ed Sprague_TOR
+5,1991,23.0,CIN,NL,10.0,12.0,10.0,0.0,1.0,0.0,0.1,0.0,1.0,0.0,0.0,1.0,2.0,6.0,Catcher,Glenn Sutko,1990-10-03,Glenn Sutko_CIN
+20,1991,32.0,CAL,AL,45.0,128.0,115.0,11.0,23.0,1.0,0.2,1.0,33.0,7.0,0.0,13.0,8.0,34.0,Catcher,Ron Tingley,1982-09-25,Ron Tingley_CAL
+14,1991,31.0,NYM,NL,10.0,8.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,Pinch Hitter and First Baseman,Kelvin Torve,1988-06-25,Kelvin Torve_NYM
+3,1991,23.0,BOS,AL,74.0,251.0,219.0,21.0,57.0,2.0,0.26,4.0,81.0,12.0,0.0,32.0,26.0,43.0,First Baseman,Mo Vaughn,1991-06-27,Mo Vaughn_BOS
+8,1991,26.0,CHC,NL,71.0,214.0,192.0,23.0,53.0,0.0,0.276,13.0,104.0,10.0,1.0,32.0,21.0,30.0,"Catcher, Pinch Hitter and First Baseman",Hector Villanueva,1990-06-01,Hector Villanueva_CHC
+6,1991,23.0,CHC,NL,93.0,154.0,145.0,7.0,38.0,2.0,0.262,0.0,43.0,5.0,0.0,10.0,5.0,18.0,"Shortstop, Second Baseman and Third Baseman",Jose Vizcaino,1989-09-10,Jose Vizcaino_CHC
+7,1991,28.0,CHW,AL,18.0,32.0,31.0,2.0,7.0,0.0,0.226,0.0,7.0,0.0,0.0,0.0,1.0,6.0,Catcher,Don Wakamatsu,1991-05-22,Don Wakamatsu_CHW
+8,1991,26.0,CLE,AL,40.0,114.0,100.0,11.0,23.0,0.0,0.23,0.0,30.0,7.0,0.0,5.0,10.0,16.0,Outfielder,Turner Ward,1990-09-10,Turner Ward_CLE
+9,1991,26.0,TOR,AL,8.0,14.0,13.0,1.0,4.0,0.0,0.308,0.0,4.0,0.0,0.0,2.0,1.0,2.0,Outfielder,Turner Ward,1990-09-10,Turner Ward_TOR
+7,1991,24.0,TOR,AL,46.0,164.0,149.0,12.0,33.0,0.0,0.221,2.0,49.0,4.0,3.0,19.0,11.0,35.0,Rightfielder,Mark Whiten,1990-07-12,Mark Whiten_TOR
+8,1991,24.0,CLE,AL,70.0,281.0,258.0,34.0,66.0,4.0,0.256,7.0,109.0,14.0,4.0,26.0,19.0,50.0,Rightfielder,Mark Whiten,1990-07-12,Mark Whiten_CLE
+5,1991,24.0,CHC,NL,86.0,235.0,203.0,21.0,45.0,3.0,0.222,6.0,72.0,9.0,0.0,22.0,19.0,56.0,Catcher,Rick Wilkins,1991-06-06,Rick Wilkins_CHC
+6,1991,22.0,NYY,AL,85.0,374.0,320.0,43.0,76.0,10.0,0.23800000000000002,3.0,112.0,19.0,4.0,34.0,48.0,57.0,Centerfielder,Bernie Williams,1991-07-07,Bernie Williams_NYY
+9,1991,26.0,STL,NL,60.0,90.0,82.0,5.0,14.0,0.0,0.171,0.0,16.0,2.0,0.0,13.0,6.0,10.0,"Pinch Hitter, Third Baseman and Second Baseman",Craig Wilson,1989-09-06,Craig Wilson_STL
+14,1992,28.0,CIN,NL,16.0,40.0,34.0,3.0,6.0,0.0,0.17600000000000002,0.0,11.0,1.0,2.0,4.0,5.0,12.0,Catcher,Troy Afenir,1987-09-14,Troy Afenir_CIN
+9,1992,25.0,MON,NL,115.0,377.0,341.0,53.0,96.0,16.0,0.282,9.0,155.0,28.0,2.0,56.0,25.0,46.0,Outfielder,Moises Alou,1990-07-26,Moises Alou_MON
+7,1992,27.0,PHI,NL,126.0,427.0,374.0,43.0,82.0,11.0,0.21899999999999997,7.0,130.0,15.0,6.0,34.0,37.0,54.0,Outfielder and Pinch Hitter,Ruben Amaro,1991-06-08,Ruben Amaro_PHI
+13,1992,32.0,BOS,AL,4.0,6.0,3.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,Pinch Hitter and Second Baseman,Tom Barrett,1988-07-02,Tom Barrett_BOS
+7,1992,24.0,PHI,NL,44.0,145.0,136.0,9.0,28.0,0.0,0.20600000000000002,1.0,35.0,4.0,0.0,10.0,4.0,18.0,Third Baseman and Shortstop,Kim Batiste,1991-09-08,Kim Batiste_PHI
+7,1992,23.0,TOR,AL,61.0,184.0,161.0,23.0,39.0,7.0,0.242,2.0,57.0,6.0,3.0,15.0,15.0,34.0,Outfielder,Derek Bell,1991-06-28,Derek Bell_TOR
+6,1992,26.0,CIN,NL,74.0,186.0,173.0,14.0,40.0,0.0,0.231,1.0,55.0,10.0,1.0,17.0,10.0,34.0,"Shortstop, Second Baseman and Third Baseman",Freddie Benavides,1991-05-14,Freddie Benavides_CIN
+9,1992,26.0,MON,NL,24.0,58.0,57.0,5.0,19.0,2.0,0.33299999999999996,1.0,23.0,1.0,0.0,4.0,1.0,11.0,Third Baseman and First Baseman,Sean Berry,1990-09-17,Sean Berry_MON
+8,1992,26.0,STL,NL,29.0,113.0,103.0,11.0,31.0,0.0,0.301,0.0,37.0,6.0,0.0,10.0,8.0,12.0,"First Baseman, Pinch Hitter and Outfielder",Rod Brewer,1990-09-05,Rod Brewer_STL
+7,1992,25.0,OAK,AL,38.0,93.0,87.0,13.0,19.0,3.0,0.218,4.0,33.0,2.0,0.0,13.0,3.0,13.0,"Third Baseman, Outfielder and First Baseman",Scott Brosius,1991-08-07,Scott Brosius_OAK
+7,1992,24.0,PHI,NL,28.0,81.0,76.0,12.0,15.0,1.0,0.19699999999999998,2.0,26.0,3.0,1.0,7.0,4.0,15.0,Outfielder,Braulio Castillo,1991-08-18,Braulio Castillo_PHI
+6,1992,25.0,MON,NL,86.0,247.0,232.0,25.0,56.0,3.0,0.24100000000000002,6.0,83.0,5.0,2.0,30.0,11.0,66.0,"First Baseman, Third Baseman and Shortstop",Archi Cianfrocco,1992-04-08,Archi Cianfrocco_MON
+6,1992,22.0,SFG,NL,98.0,352.0,321.0,31.0,72.0,8.0,0.22399999999999998,4.0,99.0,7.0,4.0,24.0,26.0,63.0,Shortstop,Royce Clayton,1991-09-20,Royce Clayton_SFG
+5,1992,22.0,MON,NL,52.0,180.0,168.0,12.0,45.0,3.0,0.268,2.0,59.0,8.0,0.0,18.0,6.0,34.0,First Baseman and Pinch Hitter,Greg Colbrunn,1992-07-09,Greg Colbrunn_MON
+8,1992,24.0,BOS,AL,123.0,379.0,337.0,34.0,93.0,1.0,0.276,5.0,129.0,21.0,0.0,33.0,37.0,33.0,Third Baseman and First Baseman,Scott Cooper,1990-09-05,Scott Cooper_BOS
+3,1992,23.0,CAL,AL,139.0,507.0,441.0,59.0,114.0,43.0,0.259,10.0,164.0,16.0,2.0,46.0,51.0,71.0,Outfielder,Chad Curtis,1992-04-08,Chad Curtis_CAL
+7,1992,24.0,CAL,AL,157.0,553.0,518.0,48.0,128.0,9.0,0.247,3.0,156.0,19.0,0.0,42.0,20.0,50.0,Shortstop,Gary Disarcina,1989-09-23,Gary Disarcina_CAL
+7,1992,26.0,NYM,NL,45.0,139.0,121.0,8.0,21.0,1.0,0.174,0.0,25.0,4.0,0.0,6.0,17.0,25.0,"Pinch Hitter, Third Baseman and First Baseman",Chris Donnels,1991-05-07,Chris Donnels_NYM
+4,1992,22.0,CAL,AL,47.0,165.0,151.0,14.0,39.0,9.0,0.258,1.0,47.0,5.0,0.0,12.0,8.0,26.0,"Second Baseman, Shortstop and Third Baseman",Damion Easley,1992-08-13,Damion Easley_CAL
+6,1992,24.0,TEX,AL,67.0,187.0,166.0,13.0,36.0,0.0,0.217,3.0,54.0,7.0,1.0,21.0,17.0,51.0,"Outfielder, Pinch Hitter and Second Baseman",Monty Fariss,1991-09-06,Monty Fariss_TEX
+7,1992,28.0,OAK,AL,51.0,163.0,143.0,24.0,34.0,3.0,0.23800000000000002,3.0,52.0,5.0,2.0,13.0,13.0,29.0,Outfielder,Eric Fox,1992-07-07,Eric Fox_OAK
+5,1992,25.0,TEX,AL,67.0,230.0,199.0,24.0,51.0,1.0,0.256,1.0,65.0,9.0,1.0,12.0,16.0,27.0,"Second Baseman, Third Baseman and Outfielder",Jeff Frye,1992-07-09,Jeff Frye_TEX
+5,1992,25.0,HOU,NL,79.0,139.0,125.0,8.0,25.0,1.0,0.2,1.0,36.0,4.0,2.0,14.0,10.0,32.0,"Pinch Hitter, Shortstop and Third Baseman",Juan Guerrero,1992-04-09,Juan Guerrero_HOU
+8,1992,23.0,LAD,NL,132.0,379.0,341.0,30.0,73.0,0.0,0.214,6.0,102.0,11.0,0.0,22.0,34.0,49.0,"Pinch Hitter, Third Baseman and First Baseman",Dave Hansen,1990-09-16,Dave Hansen_LAD
+9,1992,25.0,LAD,NL,69.0,190.0,173.0,11.0,45.0,0.0,0.26,3.0,58.0,4.0,0.0,17.0,11.0,21.0,Catcher,Carlos Hernandez,1990-04-20,Carlos Hernandez_LAD
+11,1992,28.0,OAK,AL,22.0,54.0,48.0,1.0,6.0,0.0,0.125,1.0,9.0,0.0,0.0,2.0,5.0,4.0,Outfielder and First Baseman,Dann Howitt,1989-09-15,Dann Howitt_OAK
+12,1992,28.0,SEA,AL,13.0,43.0,37.0,6.0,10.0,1.0,0.27,1.0,19.0,4.0,1.0,8.0,3.0,5.0,Outfielder and First Baseman,Dann Howitt,1989-09-15,Dann Howitt_SEA
+7,1992,23.0,NYM,NL,123.0,390.0,358.0,32.0,75.0,3.0,0.209,7.0,113.0,17.0,0.0,32.0,19.0,76.0,Catcher,Todd Hundley,1990-05-18,Todd Hundley_NYM
+8,1992,26.0,MIL,AL,47.0,152.0,133.0,17.0,30.0,10.0,0.226,2.0,41.0,3.0,1.0,10.0,12.0,30.0,First Baseman and Designated Hitter,John Jaha,1992-07-09,John Jaha_MIL
+10,1992,23.0,CLE,AL,24.0,91.0,89.0,8.0,30.0,0.0,0.337,1.0,43.0,6.0,2.0,6.0,1.0,17.0,"Designated Hitter, First Baseman and Leftfielder",Reggie Jefferson,1991-05-18,Reggie Jefferson_CLE
+10,1992,26.0,HOU,NL,54.0,73.0,63.0,7.0,12.0,3.0,0.19,1.0,19.0,2.0,1.0,4.0,7.0,21.0,Outfielder and Pinch Hitter,Chris Jones,1991-04-21,Chris Jones_HOU
+5,1992,25.0,STL,NL,55.0,204.0,193.0,17.0,40.0,7.0,0.207,5.0,72.0,9.0,4.0,22.0,10.0,48.0,Outfielder,Brian Jordan,1992-04-08,Brian Jordan_STL
+5,1992,24.0,LAD,NL,149.0,589.0,545.0,63.0,140.0,2.0,0.257,20.0,232.0,30.0,1.0,88.0,37.0,103.0,First Baseman,Eric Karros,1991-09-01,Eric Karros_LAD
+4,1992,24.0,TOR,AL,65.0,222.0,192.0,36.0,46.0,2.0,0.24,8.0,85.0,13.0,1.0,35.0,20.0,47.0,"Second Baseman, Third Baseman and First Baseman",Jeff Kent,1992-04-12,Jeff Kent_TOR
+5,1992,24.0,NYM,NL,37.0,121.0,113.0,16.0,27.0,0.0,0.239,3.0,46.0,8.0,1.0,15.0,7.0,29.0,"Second Baseman, Third Baseman and First Baseman",Jeff Kent,1992-04-12,Jeff Kent_NYM
+9,1992,25.0,KCR,AL,55.0,150.0,133.0,20.0,33.0,2.0,0.248,3.0,46.0,0.0,2.0,13.0,12.0,23.0,Outfielder,Kevin Koslofski,1992-06-28,Kevin Koslofski_KCR
+11,1992,28.0,SDP,NL,9.0,24.0,17.0,3.0,4.0,2.0,0.235,0.0,4.0,0.0,0.0,0.0,6.0,1.0,Catcher and Pinch Hitter,Tom Lampkin,1988-09-10,Tom Lampkin_SDP
+4,1992,24.0,MIL,AL,149.0,649.0,579.0,93.0,168.0,54.0,0.29,1.0,202.0,19.0,6.0,47.0,55.0,124.0,"Shortstop, Centerfielder and Second Baseman",Pat Listach,1992-04-08,Pat Listach_MIL
+5,1992,26.0,DET,AL,117.0,382.0,354.0,43.0,100.0,1.0,0.282,4.0,133.0,21.0,0.0,46.0,21.0,36.0,"Third Baseman, Pinch Hitter and First Baseman",Scott Livingstone,1991-07-19,Scott Livingstone_DET
+5,1992,25.0,CLE,AL,148.0,651.0,576.0,96.0,164.0,66.0,0.285,5.0,210.0,15.0,8.0,42.0,68.0,54.0,Centerfielder,Kenny Lofton,1991-09-14,Kenny Lofton_CLE
+6,1992,25.0,TEX,AL,8.0,10.0,9.0,1.0,2.0,0.0,0.222,0.0,2.0,0.0,0.0,1.0,1.0,2.0,Pinch Hitter and First Baseman,Rob Maurer,1991-09-08,Rob Maurer_TEX
+9,1992,23.0,CHC,NL,124.0,371.0,351.0,33.0,96.0,5.0,0.27399999999999997,8.0,131.0,11.0,0.0,45.0,14.0,40.0,Leftfielder and Pinch Hitter,Derrick May,1990-09-06,Derrick May_CHC
+11,1992,28.0,NYM,NL,18.0,1.0,1.0,3.0,1.0,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,Pinch Runner and Outfielder,Rodney McCray,1990-04-30,Rodney McCray_NYM
+13,1992,29.0,NYM,NL,31.0,87.0,85.0,10.0,23.0,0.0,0.271,2.0,34.0,3.0,1.0,13.0,2.0,8.0,"Pinch Hitter, First Baseman and Second Baseman",Jeff McKnight,1989-06-06,Jeff McKnight_NYM
+6,1992,22.0,MIL,AL,51.0,183.0,164.0,15.0,38.0,2.0,0.23199999999999998,4.0,58.0,8.0,0.0,25.0,17.0,18.0,"Catcher, Outfielder and First Baseman",Dave Nilsson,1992-05-18,Dave Nilsson_MIL
+15,1992,26.0,CLE,AL,18.0,24.0,20.0,2.0,2.0,0.0,0.1,0.0,3.0,1.0,0.0,1.0,2.0,6.0,"Shortstop, Second Baseman and Third Baseman",Tony Perezchica,1988-09-07,Tony Perezchica_CLE
+7,1992,28.0,MIN,AL,73.0,168.0,137.0,15.0,26.0,3.0,0.19,1.0,38.0,7.0,1.0,16.0,23.0,26.0,"Second Baseman, Shortstop and Third Baseman",Jeff Reboulet,1992-05-12,Jeff Reboulet_MIN
+11,1992,26.0,MON,NL,42.0,88.0,81.0,10.0,14.0,0.0,0.17300000000000001,5.0,31.0,2.0,0.0,10.0,6.0,23.0,Outfielder and Pinch Hitter,Darren Reed,1990-05-01,Darren Reed_MON
+12,1992,26.0,MIN,AL,14.0,37.0,33.0,2.0,6.0,0.0,0.182,0.0,8.0,2.0,0.0,4.0,2.0,11.0,Outfielder and Pinch Hitter,Darren Reed,1990-05-01,Darren Reed_MIN
+6,1992,24.0,LAD,NL,53.0,156.0,146.0,11.0,32.0,0.0,0.21899999999999997,3.0,48.0,7.0,0.0,14.0,8.0,30.0,Leftfielder and First Baseman,Henry Rodriguez,1992-07-05,Henry Rodriguez_LAD
+10,1992,25.0,CAL,AL,30.0,96.0,84.0,10.0,18.0,1.0,0.214,2.0,29.0,5.0,0.0,10.0,8.0,9.0,"Second Baseman, Third Baseman and Leftfielder",Bobby Rose,1989-08-12,Bobby Rose_CAL
+9,1992,28.0,KCR,AL,59.0,178.0,149.0,21.0,32.0,0.0,0.215,1.0,45.0,8.0,1.0,12.0,20.0,20.0,"Shortstop, Third Baseman and Second Baseman",Rico Rossy,1991-09-11,Rico Rossy_KCR
+8,1992,24.0,CHC,NL,74.0,275.0,255.0,24.0,64.0,2.0,0.251,1.0,87.0,14.0,3.0,19.0,10.0,17.0,Shortstop and Second Baseman,Rey Sanchez,1991-09-08,Rey Sanchez_CHC
+5,1992,24.0,CIN,NL,116.0,438.0,385.0,62.0,104.0,16.0,0.27,12.0,178.0,26.0,6.0,36.0,48.0,98.0,Outfielder,Reggie Sanders,1991-08-22,Reggie Sanders_CIN
+5,1992,23.0,CHC,NL,36.0,102.0,96.0,8.0,15.0,0.0,0.156,2.0,23.0,2.0,0.0,11.0,5.0,14.0,Third Baseman,Gary Scott,1991-04-09,Gary Scott_CHC
+4,1992,25.0,HOU,NL,77.0,227.0,205.0,12.0,49.0,0.0,0.239,0.0,58.0,9.0,0.0,15.0,11.0,25.0,Catcher,Scott Servais,1991-07-12,Scott Servais_HOU
+6,1992,27.0,NYY,AL,116.0,451.0,400.0,52.0,107.0,9.0,0.268,2.0,139.0,22.0,2.0,25.0,38.0,42.0,"Second Baseman, Shortstop and Pinch Hitter",Andy Stankiewicz,1992-04-11,Andy Stankiewicz_NYY
+10,1992,29.0,TEX,AL,8.0,14.0,13.0,0.0,2.0,0.0,0.154,0.0,2.0,0.0,0.0,0.0,0.0,5.0,Catcher,Ray Stephens,1990-09-20,Ray Stephens_TEX
+9,1992,26.0,BAL,AL,65.0,208.0,179.0,21.0,43.0,0.0,0.24,5.0,68.0,8.0,1.0,24.0,17.0,28.0,Catcher,Jeff Tackett,1991-09-11,Jeff Tackett_BAL
+8,1992,23.0,HOU,NL,104.0,331.0,297.0,23.0,66.0,2.0,0.222,5.0,96.0,15.0,0.0,28.0,31.0,78.0,Catcher,Ed Taubensee,1991-05-18,Ed Taubensee_HOU
+5,1992,21.0,CLE,AL,40.0,131.0,117.0,8.0,24.0,2.0,0.205,2.0,35.0,3.0,1.0,12.0,10.0,34.0,"First Baseman, Designated Hitter and Third Baseman",Jim Thome,1991-09-04,Jim Thome_CLE
+11,1992,29.0,SEA,AL,34.0,87.0,74.0,8.0,20.0,2.0,0.27,0.0,25.0,5.0,0.0,5.0,9.0,15.0,"Third Baseman, Leftfielder and Pinch Hitter",Shane Turner,1988-08-19,Shane Turner_SEA
+5,1992,25.0,BOS,AL,58.0,212.0,185.0,21.0,51.0,1.0,0.276,5.0,79.0,13.0,0.0,25.0,20.0,17.0,"Shortstop, Third Baseman and Second Baseman",John Valentin,1992-07-27,John Valentin_BOS
+6,1992,26.0,MON,NL,105.0,237.0,213.0,21.0,51.0,3.0,0.239,4.0,75.0,8.0,2.0,20.0,24.0,36.0,"Pinch Hitter, Outfielder and First Baseman",John Vander Wal,1991-09-06,John Vander Wal_MON
+10,1992,27.0,SDP,NL,13.0,20.0,16.0,1.0,4.0,0.0,0.25,0.0,5.0,1.0,0.0,2.0,3.0,6.0,Outfielder and Pinch Hitter,Jim Vatcher,1990-05-30,Jim Vatcher_SDP
+8,1992,25.0,SDP,NL,57.0,194.0,179.0,14.0,45.0,1.0,0.251,4.0,70.0,11.0,1.0,22.0,10.0,28.0,Catcher,Dan Walters,1992-06-01,Dan Walters_SDP
+10,1992,30.0,SDP,NL,81.0,165.0,147.0,12.0,29.0,2.0,0.19699999999999998,3.0,43.0,5.0,0.0,12.0,14.0,38.0,Leftfielder and Pinch Hitter,Kevin Ward,1991-05-10,Kevin Ward_SDP
+9,1992,27.0,MIN,AL,53.0,129.0,118.0,10.0,33.0,0.0,0.28,1.0,48.0,10.0,1.0,13.0,9.0,11.0,Catcher,Lenny Webster,1989-09-01,Lenny Webster_MIN
+6,1992,25.0,PIT,NL,55.0,137.0,123.0,11.0,22.0,3.0,0.179,0.0,28.0,6.0,0.0,4.0,12.0,22.0,"Pinch Hitter, Third Baseman and Outfielder",John Wehner,1991-07-17,John Wehner_PIT
