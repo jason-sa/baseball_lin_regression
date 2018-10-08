@@ -20,6 +20,10 @@ def get_player_data(soup_players, year, name):
     if position in 'Pitcher':
         return None
 
+    # Get the debut for identification in case duplicate name
+    debut = soup_players.find('a', {'href': re.compile('=debut')})
+    debut = debut.contents
+
     # Get batting stats
     batting = soup_players.find('table',{'id':'batting_standard'})
 
@@ -32,9 +36,11 @@ def get_player_data(soup_players, year, name):
     rookie_stats = rookie_stats[rookie_stats.Tm != 'TOT']
 
     columns = ['Year', 'Age', 'Tm', 'Lg', 'G', 'PA', 'AB', 'R','H', 'SB','BA','HR','TB','2B','3B','RBI','BB','SO']
-    rookie_stats = rookie_stats.loc[:, columns]  
+    rookie_stats = rookie_stats.loc[:, columns]
+    rookie_stats = rookie_stats[rookie_stats.Lg.str.contains(r'[A,N]L$')]  
     rookie_stats['position'] = position
     rookie_stats['name'] = name
+    rookie_stats['debut'] = debut * rookie_stats.shape[0]
 
     return rookie_stats
 
@@ -43,31 +49,12 @@ def get_player_soup(ind, df):
     return BeautifulSoup(url, 'lxml')
 
 def build_rookie_year_df(pages):
-    # dfs = []
-    # start_soup = time.time()
-    # soup_players = [get_player_soup(s, pages) for s in pages.index]
-    # end_soup = time.time()
-    dfs = [get_player_data(pages.soup[ind], str(pages.year[ind]), str(pages.name[ind])) for ind in pages.index]
-    # end_data = time.time()
-
-    # print('Soup:',end_soup - start_soup)
-    # print('Soup:', end_data - end_soup, end='\n\n')
-    # for ind in pages.index:
-    #     # start_loop = time.time()
-    #     year = str(pages.year[ind])
-    #     name = str(pages.name[ind])
-    # #     print(name, year, scrapped_rookie_players.link[ind])
-        
-    #     # start_data = time.time()
-    #     new_player = get_player_data(soup_players[ind], year, name)
-    #     # end_data = time.time()
-    #     # print('Data time', end_data - start_data)
-    #     if new_player is not None:
-    #         dfs.append(new_player)  #df = df.append(new_player)
-    #     # end_loop = time.time()
-    #     # print("loop time:", end_loop-start_loop,end='\n\n')
+    player_soup = [BeautifulSoup(pages.html[i], 'lxml') for i in pages.index]
+    dfs = [get_player_data(player_soup[ind], str(pages.year[ind]), str(pages.name[ind])) for ind in pages.index]
     df = pd.concat(dfs)
+
     df.Year = df.Year.astype(int)
+    df.debut = pd.to_datetime(df.debut, format='%B %d, %Y')
 
     return df
 
@@ -101,7 +88,7 @@ def build_rookie_table(rookie_pages):
     return rookie_df
 
 def get_player_salary(ind, df, name):
-    salary_soup = get_player_soup(ind, df)
+    salary_soup = BeautifulSoup(df.html[ind], 'lxml')
 
     salary_html = salary_soup.find('table',{'id':'br-salaries'})
     if salary_html is None:
@@ -145,3 +132,4 @@ def partion_rookie_players(size, df, name):
     while i <= tot:
         df.iloc[i:i+size].to_pickle('data/pickles/'+ name + '_' + str(i//size) + '.pkl')
     i += size
+
