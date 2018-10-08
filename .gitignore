@@ -1,5 +1,6 @@
 # custom
 data/*.zip
+data/rookie_player_pages.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
