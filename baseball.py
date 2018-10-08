@@ -11,8 +11,22 @@ import pickle
 import re
 import time
 
+PATH_RS = '/Users/jadams/ds/metis/baseball_lin_regression/data/processed_df/rookie_stats.csv'
 
-def get_player_data(soup_players, year, name):
+def build_rookie_year_df(pages):
+    # player_soup = [BeautifulSoup(pages.html[i], 'lxml') for i in pages.index]
+    dfs = [get_player_data(pages.html[ind], str(pages.year[ind]), str(pages.name[ind])) for ind in pages.index]
+    df = pd.concat(dfs)
+
+    df.Year = df.Year.astype(int)
+    df.debut = pd.to_datetime(df.debut, format='%B %d, %Y')
+
+    return df
+
+
+def get_player_data(html, year, name):
+    soup_players = BeautifulSoup(html, 'lxml')
+
     # Get position
     position = soup_players.find('p')
     position = position.contents[2].strip()
@@ -42,21 +56,17 @@ def get_player_data(soup_players, year, name):
     rookie_stats['name'] = name
     rookie_stats['debut'] = debut * rookie_stats.shape[0]
 
-    return rookie_stats
+    rookie_stats.Year = rookie_stats.Year.astype(int)
+    rookie_stats.debut = pd.to_datetime(rookie_stats.debut, format='%B %d, %Y')
+
+    with open(PATH_RS, 'a') as f:
+        rookie_stats.to_csv(f, header=False)
+
+    # return rookie_stats
 
 def get_player_soup(ind, df):
     url = df.html[ind]
     return BeautifulSoup(url, 'lxml')
-
-def build_rookie_year_df(pages):
-    player_soup = [BeautifulSoup(pages.html[i], 'lxml') for i in pages.index]
-    dfs = [get_player_data(player_soup[ind], str(pages.year[ind]), str(pages.name[ind])) for ind in pages.index]
-    df = pd.concat(dfs)
-
-    df.Year = df.Year.astype(int)
-    df.debut = pd.to_datetime(df.debut, format='%B %d, %Y')
-
-    return df
 
 def build_rookie_table(rookie_pages):
     rookie_df = pd.DataFrame(columns=['Name','Debut','Age','Tm','rookie_year'])
