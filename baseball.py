@@ -13,17 +13,6 @@ import time
 
 PATH_RS = '/Users/jadams/ds/metis/baseball_lin_regression/data/processed_df/rookie_stats.csv'
 
-def build_rookie_year_df(pages):
-    # player_soup = [BeautifulSoup(pages.html[i], 'lxml') for i in pages.index]
-    dfs = [get_player_data(pages.html[ind], str(pages.year[ind]), str(pages.name[ind])) for ind in pages.index]
-    df = pd.concat(dfs)
-
-    df.Year = df.Year.astype(int)
-    df.debut = pd.to_datetime(df.debut, format='%B %d, %Y')
-
-    return df
-
-
 def get_player_data(html, year, name):
     soup_players = BeautifulSoup(html, 'lxml')
 
