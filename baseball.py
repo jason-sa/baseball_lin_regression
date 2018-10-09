@@ -114,8 +114,9 @@ def get_player_salary(html, year, name, ind):
 
     salary_df.Age = salary_df.Age.astype(float)
 
-    salary_df.loc[salary_df.SrvTm == '?','SrvTm'] = np.nan
-    salary_df.SrvTm = salary_df.SrvTm.astype(float)
+    if salary_df.SrvTm.dtype != 'float64':
+        salary_df.loc[salary_df.SrvTm == '?','SrvTm'] = np.nan
+        salary_df.SrvTm = salary_df.SrvTm.astype(float)
 
     if ind == 1:
         salary_df.to_csv(PATH_S)
