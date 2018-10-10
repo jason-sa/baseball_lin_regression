@@ -14,6 +14,13 @@ import time
 PATH_RS = '/Users/jadams/ds/metis/baseball_lin_regression/data/processed_df/rookie_stats.csv'
 PATH_S = '/Users/jadams/ds/metis/baseball_lin_regression/data/processed_df/salary.csv'
 
+def count_awards(s):    
+    awards = 0
+    s = str(s)
+    if len(s) > 0:
+        awards = s.count(',')+1
+    return awards
+
 def get_player_data(html, year, name):
     soup_players = BeautifulSoup(html, 'lxml')
 
@@ -39,7 +46,7 @@ def get_player_data(html, year, name):
     rookie_stats = rookie_stats[(~rookie_stats.Tm.str.contains('-min'))]
     rookie_stats = rookie_stats[rookie_stats.Tm != 'TOT']
 
-    columns = ['Year', 'Age', 'Tm', 'Lg', 'G', 'PA', 'AB', 'R','H', 'SB','BA','HR','TB','2B','3B','RBI','BB','SO']
+    columns = ['Year', 'Age', 'Tm', 'Lg', 'G', 'PA', 'AB', 'R','H', 'SB','BA','HR','TB','2B','3B','RBI','BB','SO','Awards']
     rookie_stats = rookie_stats.loc[:, columns]
     rookie_stats = rookie_stats[rookie_stats.Lg.str.contains(r'[A,N]L$')]  
     rookie_stats['position'] = position
@@ -48,6 +55,9 @@ def get_player_data(html, year, name):
 
     rookie_stats.Year = rookie_stats.Year.astype(int)
     rookie_stats.debut = pd.to_datetime(rookie_stats.debut, format='%B %d, %Y')
+
+    rookie_stats.loc[rookie_stats.Awards.isnull(),'Awards'] = ''
+    rookie_stats['award_count'] = rookie_stats.Awards.apply(count_awards)
 
     with open(PATH_RS, 'a') as f:
         rookie_stats.to_csv(f, header=False)
