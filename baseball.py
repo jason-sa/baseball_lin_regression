@@ -10,6 +10,19 @@ from selenium.webdriver.common.by import By
 import pickle
 import re
 import time
+from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import RidgeCV
+from sklearn.linear_model import LassoCV
+from sklearn.pipeline import make_pipeline
+from sklearn.preprocessing import PolynomialFeatures
+from sklearn.model_selection import KFold
+from sklearn.preprocessing import StandardScaler
+from sklearn.linear_model import Ridge
+from sklearn.linear_model import Lasso
+from sklearn.model_selection import cross_val_score
+from sklearn.metrics import mean_squared_error
+import scipy.stats as stats
 
 PATH_RS = '/Users/jadams/ds/metis/baseball_lin_regression/data/processed_df/rookie_stats.csv'
 PATH_S = '/Users/jadams/ds/metis/baseball_lin_regression/data/processed_df/salary.csv'
@@ -142,3 +155,49 @@ def partion_rookie_players(size, df, name):
         df.iloc[i:i+size].to_pickle('data/pickles/'+ name + '_' + str(i//size) + '.pkl')
     i += size
 
+def run_models(X_train, y_train, name, results = None):
+    ''' Method to quickly run all models with different feature sets X_train
+    '''    
+    # capture the results for the feature set
+    model_results = pd.Series(name=name)
+
+    # Perform 10-fold cross-validation linear regression model.
+
+    lin_model = LinearRegression()
+    scores = cross_val_score(lin_model, X_train, y_train, cv=10, scoring='neg_mean_squared_error')
+    model_results['linear model - cv10'] = np.mean(-scores)
+    # model_results
+
+    # Build a Lasso model with standard scaling.
+
+    # Now perform a 10-fold cross validation for same range of alphas.
+
+    # probably want to change this range based on GridCV
+    alphas = [10**a for a in range(-2,5)]
+
+    cv_lasso = make_pipeline(StandardScaler(), LassoCV(cv=10, alphas=alphas, tol=0.001))
+    cv_lasso.fit(X_train, y_train)
+    model_results['lasso cv - ' + str(cv_lasso.get_params()['lassocv'].alpha_)] = mean_mse_Lasso(cv_lasso, 'lassocv')
+    # model_results.sort_values()
+
+    # Now 2-5 degree polynomial features and perform a 10-fold cross validation.
+
+    for degrees in range(2,6):
+        cv_lasso_poly = make_pipeline(PolynomialFeatures(degrees), StandardScaler(), LassoCV(cv=10, alphas=alphas,tol=0.001))
+        cv_lasso_poly.fit(X_train, y_train)
+        model_results['lasso poly ' + str(degrees) + ' cv - ' + str(cv_lasso_poly.get_params()['lassocv'].alpha_)] = mean_mse_Lasso(cv_lasso_poly, 'lassocv')
+
+    # model_results.sort_values()
+    
+    if results is None:
+        results = pd.DataFrame(model_results)
+    else:
+        results = pd.concat([results, pd.DataFrame(model_results)], axis=1, sort=True)
+        
+    return results
+
+def mean_mse_Lasso(model,name):
+    mse = model.get_params()[name].mse_path_
+    alphas = model.get_params()[name].alphas_
+    mse_df = pd.DataFrame(data=mse, index=alphas)
+    return mse_df.loc[model.get_params()[name].alpha_].mean()
