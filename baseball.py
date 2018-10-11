@@ -155,7 +155,7 @@ def partion_rookie_players(size, df, name):
         df.iloc[i:i+size].to_pickle('data/pickles/'+ name + '_' + str(i//size) + '.pkl')
     i += size
 
-def run_models(X_train, y_train, name, results = None):
+def run_models(X_train, y_train, name, results = None, cv=10, alphas=np.logspace(-3, -0.5, 10)):
     ''' Method to quickly run all models with different feature sets X_train
     '''    
     # capture the results for the feature set
@@ -164,7 +164,7 @@ def run_models(X_train, y_train, name, results = None):
     # Perform 10-fold cross-validation linear regression model.
 
     lin_model = LinearRegression()
-    scores = cross_val_score(lin_model, X_train, y_train, cv=10, scoring='neg_mean_squared_error')
+    scores = cross_val_score(lin_model, X_train, y_train, cv=cv, scoring='neg_mean_squared_error')
     model_results['linear model - cv10'] = np.mean(-scores)
     # model_results
 
@@ -173,9 +173,9 @@ def run_models(X_train, y_train, name, results = None):
     # Now perform a 10-fold cross validation for same range of alphas.
 
     # probably want to change this range based on GridCV
-    alphas = [10**a for a in range(-2,5)]
+    # alphas = [10**a for a in range(-2,5)]
 
-    cv_lasso = make_pipeline(StandardScaler(), LassoCV(cv=10, alphas=alphas, tol=0.001))
+    cv_lasso = make_pipeline(StandardScaler(), LassoCV(cv=cv, alphas=alphas, tol=0.001))
     cv_lasso.fit(X_train, y_train)
     model_results['lasso cv - ' + str(cv_lasso.get_params()['lassocv'].alpha_)] = mean_mse_Lasso(cv_lasso, 'lassocv')
     # model_results.sort_values()
@@ -183,7 +183,7 @@ def run_models(X_train, y_train, name, results = None):
     # Now 2-5 degree polynomial features and perform a 10-fold cross validation.
 
     for degrees in range(2,6):
-        cv_lasso_poly = make_pipeline(PolynomialFeatures(degrees), StandardScaler(), LassoCV(cv=10, alphas=alphas,tol=0.001))
+        cv_lasso_poly = make_pipeline(PolynomialFeatures(degrees), StandardScaler(), LassoCV(cv=cv, alphas=alphas,tol=0.001))
         cv_lasso_poly.fit(X_train, y_train)
         model_results['lasso poly ' + str(degrees) + ' cv - ' + str(cv_lasso_poly.get_params()['lassocv'].alpha_)] = mean_mse_Lasso(cv_lasso_poly, 'lassocv')
 
