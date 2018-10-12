@@ -27,7 +27,12 @@ import scipy.stats as stats
 PATH_RS = '/Users/jadams/ds/metis/baseball_lin_regression/data/processed_df/rookie_stats.csv'
 PATH_S = '/Users/jadams/ds/metis/baseball_lin_regression/data/processed_df/salary.csv'
 
-def count_awards(s):    
+def count_awards(s):
+    ''' Counts the numebr of awards from baseballreference.com where the awards are listed in CSV format
+
+    s: CSV string of awards
+    return: int (count of awards)
+    '''    
     awards = 0
     s = str(s)
     if len(s) > 0:
@@ -35,6 +40,14 @@ def count_awards(s):
     return awards
 
 def get_player_data(html, year, name):
+    ''' Parses a player page on baseballreference.com, builds and writes a data frame to the data directory.
+    
+    html: html scrapped from baseballreference.com
+    year: rookie year of the player
+    name: name of the player
+
+    return: writes a data frame to data/ directory
+    '''
     soup_players = BeautifulSoup(html, 'lxml')
 
     # Get position
@@ -75,13 +88,10 @@ def get_player_data(html, year, name):
     with open(PATH_RS, 'a') as f:
         rookie_stats.to_csv(f, header=False)
 
-    # return rookie_stats
-
-def get_player_soup(ind, df):
-    url = df.html[ind]
-    return BeautifulSoup(url, 'lxml')
-
 def build_rookie_table(rookie_pages):
+    ''' Builds a master data set of all rookie players using the rookie summary page on baseballreference.com
+    rookie_pages: pd.DataFrame containing 
+    '''
     rookie_df = pd.DataFrame(columns=['Name','Debut','Age','Tm','rookie_year'])
     rookie_dfs = []
 
