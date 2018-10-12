@@ -1,6 +1,7 @@
 # custom
 data/*.zip
 data/rookie_player_pages.csv
+*.DS_Store
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
