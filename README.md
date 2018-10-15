@@ -15,4 +15,4 @@ This repository scrapes MLB rookie stats and salary data from [Baseball Referenc
   * [First Model](./First&#32;Model.ipynb) - Build different features, train different models, and select best model
 * Presentation
   * [Presentation](./presentation/BaseballSalaryPrediction.pdf) -  High-level presentation of the results.
-  * [Sumamry](./Summary.pdf) -  Detaield and more technical summary of the results
+  * [Summary](./Summary.pdf) -  Detaield and more technical summary of the results
