@@ -1,3 +1,7 @@
+'''
+Script to loop through all baseballrefernce.com pages and store the HTML in data frames
+'''
+
 import numpy as np
 import pandas as pd
 from bs4 import BeautifulSoup
@@ -74,12 +78,8 @@ def build_rookie_pages(start, end, driver):
             # add these to the DF to save
             links_list = [a.get_attribute('href') for a in links if re.search(r'players/.', a.get_attribute('href'))]
             names_list = [a.text for a in links if re.search(r'players/.', a.get_attribute('href'))]
-
-
         
         if len(links_list) != 0: # add new data
-#             index = rookie_player_pages.index.max()+1
-#             index_l = list(range(index, index+len(links_list)))
             year_l = [i] * len(links_list)
             new_df = pd.DataFrame({'year': year_l, 'name': names_list, 'link': links_list})
             rookie_player_pages = rookie_player_pages.append(new_df, sort=True)
@@ -93,13 +93,13 @@ chromedriver = "chromedriver" # path to the chromedriver executable
 os.environ["webdriver.chrome.driver"] = chromedriver
 driver = webdriver.Chrome(chromedriver)
 
-# while True:
-#     try:
-#         rookie_pages, rookie_player_pages = build_rookie_pages(1985, 2017, driver)
-#     except TimeoutException:
-#         pass
-#     else:
-#         break
+while True:
+    try:
+        rookie_pages, rookie_player_pages = build_rookie_pages(1985, 2017, driver)
+    except TimeoutException:
+        pass
+    else:
+        break
 
 tries = 0
 while tries <= 2:
