@@ -10,7 +10,7 @@ This repository scrapes MLB rookie stats and salary data from [Baseball Referenc
   * [get_player.py](./get_player.py) - Web-scraping script to gather rookie stats and player salary data
   * [basebally.py](./baseball.py) - All functions used to transform the scraped HTML into data frames, and the linear model selection logic.
 * Notebooks
-  * [Data Loading](./Data\ Loading.ipynb) - Notebook utilized to proto-type the web-scraping algorithms needed to get the data.
+  * [Data Loading](./Data&#32;Loading.ipynb) - Notebook utilized to proto-type the web-scraping algorithms needed to get the data.
   * [Scrapping to DF] - Transform the scrapped HTML into feature data frames
   * [First Model] - Build different features, train different models, and select best model
 * Presentation
